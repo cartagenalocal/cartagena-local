@@ -39,14 +39,9 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.header-left {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
+.header-left { display: flex; align-items: center; gap: 14px; }
 .back-btn {
-  width: 38px;
-  height: 38px;
+  width: 38px; height: 38px;
   border: 1px solid var(--card-border);
   border-radius: 50%;
   background: var(--card-bg);
@@ -108,41 +103,14 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.plan-name {
-  font-family: 'Syne', sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
-.plan-sub {
-  font-size: 10px;
-  color: var(--muted);
-  font-family: 'Syne', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 2px;
-}
-.plan-price {
-  text-align: right;
-}
-.plan-price .amount {
-  font-family: 'Playfair Display', serif;
-  font-size: 28px;
-  font-weight: 900;
-  color: var(--gold);
-  line-height: 1;
-}
+.plan-name { font-family: 'Syne', sans-serif; font-size: 16px; font-weight: 700; }
+.plan-sub { font-size: 10px; color: var(--muted); font-family: 'Syne', sans-serif; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+.plan-price { text-align: right; }
+.plan-price .amount { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 900; color: var(--gold); line-height: 1; }
 .plan-card.popular .plan-price .amount { color: var(--dark); }
-.plan-price .period {
-  font-size: 10px;
-  color: var(--muted);
-  font-family: 'Syne', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-}
+.plan-price .period { font-size: 10px; color: var(--muted); font-family: 'Syne', sans-serif; text-transform: uppercase; letter-spacing: 1px; }
 .plan-card.popular .plan-price .period { color: rgba(0,0,0,0.5); }
-.plan-body {
-  padding: 16px 20px 20px;
-}
+.plan-body { padding: 16px 20px 20px; }
 .plan-features {
   list-style: none;
   display: flex;
@@ -158,12 +126,7 @@ body {
   gap: 10px;
   line-height: 1.4;
 }
-.plan-features li i {
-  width: 18px;
-  text-align: center;
-  font-size: 13px;
-  flex-shrink: 0;
-}
+.plan-features li i { width: 18px; text-align: center; font-size: 13px; flex-shrink: 0; }
 .plan-features li .check { color: #4CAF50; }
 .plan-features li .cross { color: #666; }
 .plan-features li .check-gold { color: var(--gold); }
@@ -184,43 +147,10 @@ body {
 }
 .plan-btn:hover { transform: scale(1.02); }
 .plan-btn:active { transform: scale(0.98); }
-.plan-btn.gold {
-  background: var(--gold);
-  color: var(--dark);
-}
+.plan-btn.gold { background: var(--gold); color: var(--dark); }
 .plan-btn.gold:hover { background: var(--gold-light); }
-.plan-btn.dark {
-  background: rgba(255,255,255,0.08);
-  color: var(--text);
-  border: 1px solid var(--card-border);
-}
+.plan-btn.dark { background: rgba(255,255,255,0.08); color: var(--text); border: 1px solid var(--card-border); }
 .plan-btn.dark:hover { background: rgba(255,255,255,0.12); }
-.nombre-input-wrap {
-  margin-bottom: 12px;
-}
-.nombre-input-wrap label {
-  display: block;
-  font-size: 11px;
-  color: var(--muted2);
-  font-family: 'Syne', sans-serif;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-bottom: 6px;
-}
-.nombre-input-wrap input {
-  width: 100%;
-  padding: 10px 14px;
-  background: rgba(0,0,0,0.3);
-  border: 1px solid var(--card-border);
-  border-radius: 10px;
-  color: var(--text);
-  font-size: 14px;
-  font-family: 'DM Sans', sans-serif;
-  outline: none;
-  transition: border-color 0.2s;
-}
-.nombre-input-wrap input:focus { border-color: var(--gold); }
-.nombre-input-wrap input::placeholder { color: var(--muted); }
 .badge-popular {
   display: inline-block;
   background: var(--gold);
@@ -234,22 +164,15 @@ body {
   border-radius: 6px;
   margin-left: 10px;
 }
-.wa-support {
-  position: fixed;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 32px);
-  max-width: 448px;
+.footer-nav {
+  padding: 0 16px 24px;
   display: flex;
   gap: 10px;
 }
-.wa-support a {
+.footer-nav a {
   flex: 1;
   padding: 13px 16px;
   border-radius: 14px;
-  background: #25D366;
-  color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -258,18 +181,34 @@ body {
   font-family: 'Syne', sans-serif;
   font-weight: 700;
   font-size: 13px;
-  transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 4px 16px rgba(37,211,102,0.3);
+  transition: transform 0.2s;
 }
-.wa-support a:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(37,211,102,0.45); }
-.wa-support .wa-secondary {
+.footer-nav a:hover { transform: translateY(-2px); }
+.footer-nav .btn-back {
   background: var(--card-bg);
   border: 1px solid var(--card-border);
-  box-shadow: none;
   color: var(--text);
   flex: 0.4;
 }
-.wa-support .wa-secondary:hover { border-color: var(--gold); box-shadow: none; }
+.footer-nav .btn-back:hover { border-color: var(--gold); }
+.toast {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--gold);
+  color: var(--dark);
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+  z-index: 100;
+}
+.toast.show { opacity: 1; }
 @media (max-width: 380px) {
   .plan-header { flex-direction: column; align-items: flex-start; gap: 8px; }
   .plan-price { text-align: left; }
@@ -308,19 +247,15 @@ body {
       <div class="plan-body">
         <ul class="plan-features">
           <li><i class="fa-solid fa-check check"></i> Perfil con foto, horario y descripción</li>
-          <li><i class="fa-solid fa-check check"></i> Enlace a WhatsApp e Instagram</li>
+          <li><i class="fa-solid fa-check check"></i> Enlace a Instagram</li>
           <li><i class="fa-solid fa-check check"></i> Ubicación en el mapa</li>
           <li><i class="fa-solid fa-check check"></i> Categoría y etiquetas</li>
           <li><i class="fa-solid fa-check check"></i> 1<sup>er</sup> mes GRATIS</li>
           <li><i class="fa-solid fa-xmark cross"></i> Sin borde destacado</li>
           <li><i class="fa-solid fa-xmark cross"></i> Sin prioridad en resultados</li>
         </ul>
-        <div class="nombre-input-wrap">
-          <label>Nombre de tu negocio</label>
-          <input type="text" class="nombre-input" placeholder="Ej: Mi Restaurante" data-plan="Presencia Basica">
-        </div>
-        <button class="plan-btn dark pagar-btn" data-plan="Presencia Basica" data-precio="30000">
-          <i class="fa-brands fa-whatsapp"></i> Lo quiero
+        <button class="plan-btn dark comprar-btn" data-plan="Presencia Basica" data-precio="30000">
+          Elegir plan
         </button>
       </div>
     </div>
@@ -343,12 +278,8 @@ body {
           <li><i class="fa-solid fa-check check-gold"></i> Borde dorado en tu tarjeta</li>
           <li><i class="fa-solid fa-check check-gold"></i> Antes que los no verificados</li>
         </ul>
-        <div class="nombre-input-wrap">
-          <label>Nombre de tu negocio</label>
-          <input type="text" class="nombre-input" placeholder="Ej: Mi Restaurante" data-plan="Verificado">
-        </div>
-        <button class="plan-btn dark pagar-btn" data-plan="Verificado" data-precio="60000">
-          <i class="fa-brands fa-whatsapp"></i> Lo quiero
+        <button class="plan-btn dark comprar-btn" data-plan="Verificado" data-precio="60000">
+          Elegir plan
         </button>
       </div>
     </div>
@@ -371,12 +302,8 @@ body {
           <li><i class="fa-solid fa-check check-gold"></i> Aparece antes que los demás</li>
           <li><i class="fa-solid fa-check check-gold"></i> Más exposición para tu negocio</li>
         </ul>
-        <div class="nombre-input-wrap">
-          <label>Nombre de tu negocio</label>
-          <input type="text" class="nombre-input" placeholder="Ej: Mi Restaurante" data-plan="Destacado">
-        </div>
-        <button class="plan-btn gold pagar-btn" data-plan="Destacado" data-precio="80000">
-          <i class="fa-brands fa-whatsapp"></i> Lo quiero
+        <button class="plan-btn gold comprar-btn" data-plan="Destacado" data-precio="80000">
+          Elegir plan
         </button>
       </div>
     </div>
@@ -399,52 +326,28 @@ body {
           <li><i class="fa-solid fa-check check-gold"></i> Aparece primero en tu categoría</li>
           <li><i class="fa-solid fa-check check-gold"></i> Lo máximo en exposición</li>
         </ul>
-        <div class="nombre-input-wrap">
-          <label>Nombre de tu negocio</label>
-          <input type="text" class="nombre-input" placeholder="Ej: Mi Restaurante" data-plan="Completo">
-        </div>
-        <button class="plan-btn dark pagar-btn" data-plan="Completo" data-precio="100000">
-          <i class="fa-brands fa-whatsapp"></i> Lo quiero
+        <button class="plan-btn dark comprar-btn" data-plan="Completo" data-precio="100000">
+          Elegir plan
         </button>
       </div>
     </div>
   </div>
 
-  <div class="wa-support" style="position:static;transform:none;width:auto;max-width:none;padding:0 16px 24px;margin-top:8px;">
-    <a href="https://wa.me/573218879876?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20los%20planes%20de%20Cartagena%20Local" target="_blank">
-      <i class="fa-brands fa-whatsapp"></i> ¿Dudas? Escríbenos
-    </a>
-    <a href="index.html" class="wa-secondary">
-      <i class="fa-solid fa-arrow-left"></i>
-    </a>
+  <div class="footer-nav">
+    <a href="index.html" class="btn-back"><i class="fa-solid fa-arrow-left"></i> Volver</a>
   </div>
 </div>
 
+<div class="toast" id="toast"></div>
+
 <script>
-document.querySelectorAll('.pagar-btn').forEach(btn => {
+document.querySelectorAll('.comprar-btn').forEach(btn => {
   btn.addEventListener('click', function() {
-    const card = this.closest('.plan-card');
-    const input = card.querySelector('.nombre-input');
-    const nombre = input ? input.value.trim() : '';
     const plan = this.dataset.plan;
-    const precio = this.dataset.precio;
-
-    let texto = `Hola%2C%20quiero%20el%20plan%20*${encodeURIComponent(plan)}*%20($${precio}%2Fmes)`;
-    if (nombre) {
-      texto += `%20para%20mi%20negocio%20*${encodeURIComponent(nombre)}*`;
-    }
-    texto += `.%20%F0%9F%91%8B`;
-
-    window.open(`https://wa.me/573218879876?text=${texto}`, '_blank');
-  });
-});
-
-document.querySelectorAll('.nombre-input').forEach(input => {
-  input.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') {
-      const btn = this.closest('.plan-card').querySelector('.pagar-btn');
-      if (btn) btn.click();
-    }
+    const toast = document.getElementById('toast');
+    toast.textContent = `Has elegido ${plan}. Pronto podrás pagar aquí.`;
+    toast.classList.add('show');
+    setTimeout(() => toast.classList.remove('show'), 3000);
   });
 });
 </script>
