@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
 <!-- Google Tag Manager -->
@@ -10,7 +10,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cartagena Local — El Parche</title>
+<title>Cartagena Local ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â El Parche</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -63,7 +63,7 @@ body::before {
   padding-bottom: 90px;
 }
 
-/* ── HEADER ── */
+/* -- HEADER -- */
 .app-header {
   padding: 22px 20px 14px;
   position: sticky;
@@ -84,7 +84,7 @@ body::before {
 }
 .search-box input::placeholder { color: var(--muted); }
 .search-box input:focus { border-color: var(--gold); }
-.search-box::before { content: '🔍'; position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; pointer-events: none; }
+.search-box::before { content: '\f002'; font-family: 'Font Awesome 6 Free'; font-weight: 900; position: absolute; left: 12px; top: 50%; transform: translateY(-50%); font-size: 13px; pointer-events: none; }
 .cats-scroll { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; }
 .cats-scroll::-webkit-scrollbar { display: none; }
 .cat-pill {
@@ -95,11 +95,11 @@ body::before {
 }
 .cat-pill.active { background: var(--gold); color: var(--dark); border-color: var(--gold); }
 
-/* ── SCREENS ── */
+/* -- SCREENS -- */
 .screen { display: none; }
 .screen.active { display: block; }
 
-/* ── BANNER ── */
+/* -- BANNER -- */
 .banner {
   margin: 16px 16px 0;
   background: linear-gradient(135deg, #2A1505, #1C0F03);
@@ -129,11 +129,11 @@ body::before {
 .btn-ver-eventos:hover { background: var(--gold-light); }
 .btn-ver-eventos:active { transform: scale(0.98); }
 
-/* ── SEC HEADER ── */
+/* -- SEC HEADER -- */
 .sec-header { display: flex; justify-content: space-between; align-items: center; padding: 22px 16px 12px; }
 .sec-header h2 { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; font-style: italic; color: var(--text); }
 
-/* ── PLACES FEED ── */
+/* -- PLACES FEED -- */
 .places-feed { padding: 0 16px; display: flex; flex-direction: column; gap: 16px; }
 .place-card {
   background: var(--card-bg); border: 1px solid var(--card-border);
@@ -209,7 +209,7 @@ body::before {
 .place-barrio { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 5px; }
 .place-barrio i { color: var(--muted2); font-size: 11px; }
 
-/* ── EVENTOS SCREEN ── */
+/* -- EVENTOS SCREEN -- */
 .events-screen-header { padding: 20px 16px 0; }
 .events-screen-header h2 { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 900; color: var(--gold); font-style: italic; }
 .events-screen-header p { font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); font-family: 'Syne', sans-serif; margin-top: 3px; margin-bottom: 14px; }
@@ -238,7 +238,7 @@ body::before {
 .ev-info-full h3 { font-family: 'Playfair Display', serif; font-size: 19px; font-weight: 700; color: var(--text); margin-bottom: 10px; }
 .ev-detail-row { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--muted2); margin-bottom: 6px; }
 
-/* ── MAPA ── */
+/* -- MAPA -- */
 .map-screen { display: flex; flex-direction: column; height: calc(100vh - 140px); }
 #map { flex: 1; width: 100%; min-height: 400px; }
 .leaflet-popup-content-wrapper { background: var(--card-bg) !important; color: var(--text) !important; border: 1px solid var(--gold) !important; border-radius: 12px !important; box-shadow: 0 4px 20px rgba(0,0,0,0.6) !important; }
@@ -246,7 +246,7 @@ body::before {
 .popup-name { font-weight: 600; font-size: 14px; color: var(--gold); margin-bottom: 4px; }
 .popup-barrio { font-size: 12px; color: var(--muted2); }
 
-/* ── GUARDADOS ── */
+/* -- GUARDADOS -- */
 .saved-screen-header { padding: 20px 16px 16px; }
 .saved-screen-header h2 { font-family: 'Playfair Display', serif; font-size: 26px; font-weight: 900; font-style: italic; color: var(--gold); }
 .saved-screen-header p { font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--muted); font-family: 'Syne', sans-serif; margin-top: 3px; }
@@ -255,9 +255,9 @@ body::before {
 .saved-empty h3 { font-family: 'Playfair Display', serif; font-size: 18px; color: var(--muted2); margin-bottom: 8px; }
 .saved-empty p { font-size: 13px; line-height: 1.6; }
 
-/* ══════════════════════════════════
-   MODAL — todo en una pantalla
-══════════════════════════════════ */
+/* ----------------------------------
+   MODAL ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â todo en una pantalla
+---------------------------------- */
 .overlay {
   position: fixed; inset: 0;
   background: rgba(0,0,0,0.9);
@@ -436,7 +436,7 @@ body::before {
 }
 .btn-icon:hover { border-color: var(--gold); color: var(--gold); }
 
-/* ── BOTTOM NAV ── */
+/* -- BOTTOM NAV -- */
 .bottom-nav {
   position: fixed; bottom: 0; left: 50%; transform: translateX(-50%);
   width: 100%; max-width: 480px;
@@ -451,7 +451,7 @@ body::before {
 .nav-it.active .nav-icon { transform: scale(1.15); }
 .nav-it.active .nav-icon i { color: var(--gold); }
 
-/* ── WHATSAPP FLOTANTE ── */
+/* -- WHATSAPP FLOTANTE -- */
 .wa-float { position: fixed; bottom: 88px; right: calc(50% - 228px); z-index: 400; }
 .wa-btn {
   background: var(--whatsapp); border: none; border-radius: 50px;
@@ -478,7 +478,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="header-top">
       <div class="logo">
         <h1>Cartagena Local</h1>
-        <p>Lo que hacen los de aquí</p>
+        <p>Lo que hacen los de aquÃƒÆ’Ã‚Â­</p>
       </div>
     </div>
     <div class="search-box">
@@ -486,12 +486,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
     <div class="cats-scroll">
       <div class="cat-pill active" onclick="setFilter('todos',this)">Todos</div>
-      <div class="cat-pill" onclick="setFilter('bares',this)">🍺 Bares</div>
-      <div class="cat-pill" onclick="setFilter('cafe',this)">☕ Cafés</div>
-      <div class="cat-pill" onclick="setFilter('comida',this)">🍽 Comida</div>
-      <div class="cat-pill" onclick="setFilter('plan',this)">🌅 Planes</div>
-      <div class="cat-pill" onclick="setFilter('arte',this)">🎨 Arte</div>
-      <div class="cat-pill" onclick="setFilter('noche',this)">🌙 Noche</div>
+      <div class="cat-pill" onclick="setFilter('bares',this)"><i class="fa-solid fa-martini-glass-citrus"></i> Bares</div>
+      <div class="cat-pill" onclick="setFilter('cafe',this)">? CafÃƒÆ’Ã‚Â©s</div>
+      <div class="cat-pill" onclick="setFilter('comida',this)"><i class="fa-solid fa-utensils"></i> Comida</div>
+      <div class="cat-pill" onclick="setFilter('plan',this)"><i class="fa-solid fa-calendar-check"></i> Planes</div>
+      <div class="cat-pill" onclick="setFilter('arte',this)"><i class="fa-solid fa-palette"></i> Arte</div>
+      <div class="cat-pill" onclick="setFilter('noche',this)"><i class="fa-solid fa-moon"></i> Noche</div>
     </div>
   </div>
 
@@ -499,17 +499,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="screen active" id="screen-inicio">
     <div class="banner" id="banner-eventos">
       <div class="banner-header" onclick="toggleBanner()">
-        <div class="banner-flame">🔥</div>
+        <div class="banner-flame"><i class="fa-solid fa-fire"></i></div>
         <div class="banner-texto">
-          <h3>¿Qué hacer esta noche?</h3>
+          <h3>Ãƒâ€šÃ‚Â¿QuÃƒÆ’Ã‚Â© hacer esta noche?</h3>
           <p>Eventos programados para el mes</p>
         </div>
-        <div class="banner-arrow">❯</div>
+        <div class="banner-arrow">?</div>
       </div>
       <div class="banner-body">
         <div id="banner-events-list"></div>
         <div class="banner-cta">
-          <button class="btn-ver-eventos" onclick="goScreen('screen-eventos')">Ver todos los eventos del año →</button>
+          <button class="btn-ver-eventos" onclick="goScreen('screen-eventos')">Ver todos los eventos del aÃƒÆ’Ã‚Â±o ?</button>
         </div>
       </div>
     </div>
@@ -521,7 +521,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="screen" id="screen-eventos">
     <div class="events-screen-header">
       <h2>Agenda</h2>
-      <p>Próximos eventos en Cartagena</p>
+      <p>PrÃƒÆ’Ã‚Â³ximos eventos en Cartagena</p>
     </div>
       <div class="events-feed" id="events-feed"></div>
   </div>
@@ -550,7 +550,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- BOTON REGISTRO -->
 <div class="wa-float">
   <a class="wa-btn" href="https://hablemosdeparche.github.io/elparche-admin/admintaller/" style="text-decoration:none;">
-    <span class="wa-btn-icon">📋</span>
+    <span class="wa-btn-icon"><i class="fa-solid fa-store"></i></span>
     <span class="wa-btn-text">Registra tu local</span>
   </a>
 </div>
@@ -560,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="modal-sheet" id="modal-sheet">
     <div class="modal-hero" id="modal-hero">
       <div class="modal-handle"></div>
-      <div class="modal-close" onclick="closeModal()">✕</div>
+      <div class="modal-close" onclick="closeModal()">?</div>
       <svg class="modal-hero-icon" id="modal-hero-icon" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"></svg>
     </div>
     <div class="modal-body">
@@ -577,7 +577,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div id="modal-info"></div>
       <div id="modal-menu"></div>
       <div class="modal-cta">
-        <button class="btn-primary" id="btn-como-llegar"><i class="fa-solid fa-location-dot"></i> Cómo llegar</button>
+        <button class="btn-primary" id="btn-como-llegar"><i class="fa-solid fa-location-dot"></i> CÃƒÆ’Ã‚Â³mo llegar</button>
         <button class="btn-icon" id="btn-modal-heart" onclick="toggleSaveFromModal()"><i class="fa-regular fa-heart"></i></button>
         <button class="btn-icon" onclick="sharePlace()"><i class="fa-solid fa-share-from-square"></i></button>
       </div>
@@ -586,9 +586,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 
 <script>
-// ══════════════════════════════════════
+// --------------------------------------
 // SVG ICONS
-// ══════════════════════════════════════
+// --------------------------------------
 const svgIcons = {
   bares: `<circle cx="40" cy="28" r="18" stroke="#C9983A" stroke-width="2.5" fill="none"/>
     <path d="M28 28 Q28 52 40 52 Q52 52 52 28" stroke="#C9983A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
@@ -636,102 +636,102 @@ function getSVG(cat) {
   return svgIcons[map[cat]] || svgIcons.default;
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // DATOS
-// ══════════════════════════════════════
+// --------------------------------------
 const places = [
-  // ═══ BARES ═══
-  { id:1, orden:999, bg:'pt1', cat:'bares', name:'Alquímico', nit:'', barrio:'Centro Histórico', tags:['Coctelería','Tres pisos','Top 50 mundial'], rating:4.7, horario:'Mar–Sáb · 5pm–2am', precio:'$$$ Exclusivo', desc:'Reconocido entre los 50 mejores bares del mundo. Tres pisos con propuestas distintas: cócteles de los años 20, coctelería clásica y sabores caribeños en la azotea.', img:'https://images.pexels.com/photos/17119947/pexels-photo-17119947.jpeg?w=1920', telefono:'+57 605 660 0907', instagram:'alquimicocartagena', menu:['Coctel de mango con tamarindo','Old Fashioned caribeño','Ceviche de camarón','Tostones con hogao'], coords:[10.4237,-75.5497] },
-  { id:2, orden:999, bg:'pt2', cat:'bares', name:'Café Havana', nit:'', barrio:'Getsemaní', tags:['Salsa','Música en vivo','Rumba'], rating:4.6, horario:'Vie–Dom · 8pm–3am', precio:'$$$ Exclusivo', desc:'El templo de la salsa en Cartagena. Paredes empapeladas de fotos vintage y una banda en vivo que enciende la pista cada noche. Imperdible si te gusta bailar.', img:'https://images.pexels.com/photos/2188012/pexels-photo-2188012.jpeg?w=1920', telefono:'+57 605 664 7450', instagram:'cafehavana_cartagena', menu:['Mojito cubano','Daiquirí de fresa','Ron con cola','Cerveza Águila'], coords:[10.4222,-75.5454] },
-  { id:3, orden:999, bg:'pt3', cat:'bares', name:'El Pasquín de Joaco Gastro Bar', nit:'', barrio:'Centro Histórico', tags:['Gastro bar','Brunch','Música local'], rating:4.8, horario:'Lun–Dom · 8am–2am', precio:'$$$ Exclusivo', desc:'Esquina colonial convertida en gastro bar de moda. Brunch espectacular, comida deliciosa y una apuesta por la música local que lo hace único en el Centro.', img:'https://images.pexels.com/photos/31155820/pexels-photo-31155820.jpeg?w=1920', telefono:'+57 300 813 5762', instagram:'elpasquindejoaco', menu:['Tartar de atún','Pulpo al olivo','Hamburguesa artesanal','Limonada de coco'], coords:[10.4234,-75.5494] },
-  { id:4, orden:999, bg:'pt4', cat:'bares', name:'Donde Fidel Salsa Club', nit:'', barrio:'Centro Histórico', tags:['Salsa','Pegado','Torre del Reloj'], rating:4.4, horario:'Lun–Dom · 6pm–2am', precio:'$$ Promedio', desc:'Frente a la Torre del Reloj, este antro salsero es parada obligada. Paredes con fotos de leyendas, cerveza fría y salsa las 24/7. No sabes bailar? Aquí aprendes.', img:'https://images.pexels.com/photos/28184044/pexels-photo-28184044.jpeg?w=1920', telefono:'+57 300 456 7890', instagram:'dondefidelsalsa', menu:['Cerveza Águila','Ron Medellín','Mojito','Cubalibre'], coords:[10.4227,-75.5496] },
-  { id:5, orden:999, bg:'pt5', cat:'bares', name:'Café del Mar', nit:'', barrio:'Centro Histórico', tags:['Sunset','Vista al mar','Chill out'], rating:4.5, horario:'Dom–Jue 10am–12am, Vie–Sáb 10am–2am', precio:'$$$ Exclusivo', desc:'En plena muralla con vista al mar Caribe. El atardecer más famoso de Cartagena. Música chill-out, cócteles y una brisa que se lleva el calor de la ciudad.', img:'https://images.pexels.com/photos/12567801/pexels-photo-12567801.jpeg?w=1920', telefono:'+57 605 660 0045', instagram:'cafedelmarcartagena', menu:['Mojito','Piña Colada','Ceviche','Copa de vino'], coords:[10.4244,-75.5541] },
-  { id:6, orden:999, bg:'pt6', cat:'bares', name:'El Barón Café & Cocktail Bar', nit:'', barrio:'Centro Histórico', tags:['Terraza','Cócteles','Plaza Santo Domingo'], rating:4.3, horario:'Lun–Dom · 5pm–12am', precio:'$$ Exclusivo', desc:'Terraza elegante frente a la Plaza Santo Domingo. Perfecto para un cóctel al caer la tarde viendo pasar la vida cartagenera. Ambiente relajado y servicio impecable.', img:'https://images.pexels.com/photos/32089215/pexels-photo-32089215.jpeg?w=1920', telefono:'+57 300 567 8901', instagram:'elbaroncafe', menu:['Negroni','Gin Tonic','Margarita','Aperol Spritz'], coords:[10.4219,-75.5509] },
-  { id:7, orden:999, bg:'pt7', cat:'bares', name:'La Movida', nit:'', barrio:'Centro Histórico', tags:['Discoteca','Rooftop','Fiesta'], rating:4.4, horario:'Vie–Sáb · 9pm–3am', precio:'$$$ Exclusivo', desc:'Discoteca y rooftop en el corazón del Centro. Música variada, ambiente festivo y un público que viene a bailar hasta el cierre. Dos ambientes para dos momentos de la noche.', img:'https://images.pexels.com/photos/6982443/pexels-photo-6982443.jpeg?w=1920', telefono:'+57 300 678 9012', instagram:'lamovidacartagena', menu:['Botella de ron','Whisky nacional','Cerveza','Coctel de la casa'], coords:[10.4233,-75.5532] },
+  // --- BARES ---
+  { id:1, orden:99999, bg:'pt1', cat:'bares', name:'AlquÃƒÆ’Ã‚Â­mico', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['CoctelerÃƒÆ’Ã‚Â­a','Tres pisos','Top 50 mundial'], rating:4.7, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 5pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2am', precio:'$$$ Exclusivo', desc:'Reconocido entre los 50 mejores bares del mundo. Tres pisos con propuestas distintas: cÃƒÆ’Ã‚Â³cteles de los aÃƒÆ’Ã‚Â±os 20, coctelerÃƒÆ’Ã‚Â­a clÃƒÆ’Ã‚Â¡sica y sabores caribeÃƒÆ’Ã‚Â±os en la azotea.', img:'https://images.pexels.com/photos/17119947/pexels-photo-17119947.jpeg?w=1920', telefono:'+57 605 660 0907', instagram:'alquimicocartagena', menu:['Coctel de mango con tamarindo','Old Fashioned caribeÃƒÆ’Ã‚Â±o','Ceviche de camarÃƒÆ’Ã‚Â³n','Tostones con hogao'], coords:[10.4237,-75.5497] },
+  { id:2, orden:999, bg:'pt2', cat:'bares', name:'CafÃƒÆ’Ã‚Â© Havana', nit:'', barrio:'GetsemanÃƒÆ’Ã‚Â­', tags:['Salsa','MÃƒÆ’Ã‚Âºsica en vivo','Rumba'], rating:4.6, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 8pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$$ Exclusivo', desc:'El templo de la salsa en Cartagena. Paredes empapeladas de fotos vintage y una banda en vivo que enciende la pista cada noche. Imperdible si te gusta bailar.', img:'https://images.pexels.com/photos/2188012/pexels-photo-2188012.jpeg?w=1920', telefono:'+57 605 664 7450', instagram:'cafehavana_cartagena', menu:['Mojito cubano','DaiquirÃƒÆ’Ã‚Â­ de fresa','Ron con cola','Cerveza ÃƒÆ’Ã‚Âguila'], coords:[10.4222,-75.5454] },
+  { id:3, orden:999, bg:'pt3', cat:'bares', name:'El PasquÃƒÆ’Ã‚Â­n de Joaco Gastro Bar', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Gastro bar','Brunch','MÃƒÆ’Ã‚Âºsica local'], rating:4.8, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 8amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2am', precio:'$$$ Exclusivo', desc:'Esquina colonial convertida en gastro bar de moda. Brunch espectacular, comida deliciosa y una apuesta por la mÃƒÆ’Ã‚Âºsica local que lo hace ÃƒÆ’Ã‚Âºnico en el Centro.', img:'https://images.pexels.com/photos/31155820/pexels-photo-31155820.jpeg?w=1920', telefono:'+57 300 813 5762', instagram:'elpasquindejoaco', menu:['Tartar de atÃƒÆ’Ã‚Âºn','Pulpo al olivo','Hamburguesa artesanal','Limonada de coco'], coords:[10.4234,-75.5494] },
+  { id:4, orden:999, bg:'pt4', cat:'bares', name:'Donde Fidel Salsa Club', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Salsa','Pegado','Torre del Reloj'], rating:4.4, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 6pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2am', precio:'$$ Promedio', desc:'Frente a la Torre del Reloj, este antro salsero es parada obligada. Paredes con fotos de leyendas, cerveza frÃƒÆ’Ã‚Â­a y salsa las 24/7. No sabes bailar? AquÃƒÆ’Ã‚Â­ aprendes.', img:'https://images.pexels.com/photos/28184044/pexels-photo-28184044.jpeg?w=1920', telefono:'+57 300 456 7890', instagram:'dondefidelsalsa', menu:['Cerveza ÃƒÆ’Ã‚Âguila','Ron MedellÃƒÆ’Ã‚Â­n','Mojito','Cubalibre'], coords:[10.4227,-75.5496] },
+  { id:5, orden:999, bg:'pt5', cat:'bares', name:'CafÃƒÆ’Ã‚Â© del Mar', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Sunset','Vista al mar','Chill out'], rating:4.5, horario:'DomÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Jue 10amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12am, VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b 10amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2am', precio:'$$$ Exclusivo', desc:'En plena muralla con vista al mar Caribe. El atardecer mÃƒÆ’Ã‚Â¡s famoso de Cartagena. MÃƒÆ’Ã‚Âºsica chill-out, cÃƒÆ’Ã‚Â³cteles y una brisa que se lleva el calor de la ciudad.', img:'https://images.pexels.com/photos/12567801/pexels-photo-12567801.jpeg?w=1920', telefono:'+57 605 660 0045', instagram:'cafedelmarcartagena', menu:['Mojito','PiÃƒÆ’Ã‚Â±a Colada','Ceviche','Copa de vino'], coords:[10.4244,-75.5541] },
+  { id:6, orden:999, bg:'pt6', cat:'bares', name:'El BarÃƒÆ’Ã‚Â³n CafÃƒÆ’Ã‚Â© & Cocktail Bar', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Terraza','CÃƒÆ’Ã‚Â³cteles','Plaza Santo Domingo'], rating:4.3, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 5pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12am', precio:'$$ Exclusivo', desc:'Terraza elegante frente a la Plaza Santo Domingo. Perfecto para un cÃƒÆ’Ã‚Â³ctel al caer la tarde viendo pasar la vida cartagenera. Ambiente relajado y servicio impecable.', img:'https://images.pexels.com/photos/32089215/pexels-photo-32089215.jpeg?w=1920', telefono:'+57 300 567 8901', instagram:'elbaroncafe', menu:['Negroni','Gin Tonic','Margarita','Aperol Spritz'], coords:[10.4219,-75.5509] },
+  { id:7, orden:999, bg:'pt7', cat:'bares', name:'La Movida', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Discoteca','Rooftop','Fiesta'], rating:4.4, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 9pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$$ Exclusivo', desc:'Discoteca y rooftop en el corazÃƒÆ’Ã‚Â³n del Centro. MÃƒÆ’Ã‚Âºsica variada, ambiente festivo y un pÃƒÆ’Ã‚Âºblico que viene a bailar hasta el cierre. Dos ambientes para dos momentos de la noche.', img:'https://images.pexels.com/photos/6982443/pexels-photo-6982443.jpeg?w=1920', telefono:'+57 300 678 9012', instagram:'lamovidacartagena', menu:['Botella de ron','Whisky nacional','Cerveza','Coctel de la casa'], coords:[10.4233,-75.5532] },
 
-  // ═══ CAFÉS ═══
-  { id:8, orden:999, bg:'pt8', cat:'cafe', name:'Época Café Bar', nit:'', barrio:'Centro Histórico', tags:['Café de especialidad','Brunch','Wifi'], rating:4.8, horario:'Lun–Dom · 7am–9pm', precio:'$$ Promedio', desc:'Cafetería de especialidad con ambiente parisino años 40. Café de origen colombiano certificado y una carta de desayunos que enamora. El cardamomo latte es legendario.', img:'https://images.pexels.com/photos/29250093/pexels-photo-29250093.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 300 789 0123', instagram:'epocacafebar', menu:['Cardamomo Latte','Espresso','Banana Bread','Sándwich de pollo'], coords:[10.4238,-75.5503] },
-  { id:9, orden:999, bg:'pt1', cat:'cafe', name:'Ábaco Libros y Café', nit:'', barrio:'Centro Histórico', tags:['Librería','Café','Lectura'], rating:4.6, horario:'Lun–Sáb · 9am–9pm', precio:'$$ Promedio', desc:'Librería-café de cuento con estantes hasta el techo y escalera tipo Beauty and the Beast. Café bien servido entre libros, ideal para una tarde de lectura o conversación.', img:'https://images.pexels.com/photos/32445699/pexels-photo-32445699.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 605 660 4745', instagram:'abacolibrosycafe', menu:['Cappuccino','Té chai','Brownie','Croissant'], coords:[10.4250,-75.5512] },
-  { id:10, orden:999, bg:'pt2', cat:'cafe', name:'Café del Mural', nit:'', barrio:'Getsemaní', tags:['Café','Arte callejero','Terraza'], rating:4.6, horario:'Lun–Dom · 8am–6pm', precio:'$ Económico', desc:'En pleno Getsemaní, frente al mural más instagrameable del barrio. Café de filtro, buena música y una terraza perfecta para ver la vida pasar. Punto de encuentro de viajeros.', img:'https://images.pexels.com/photos/30774028/pexels-photo-30774028.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 300 890 1234', instagram:'cafedelmuralctg', menu:['Tinto colombiano','Café con leche','Jugo de naranja','Pan de bono'], coords:[10.4201,-75.5465] },
-  { id:11, orden:999, bg:'pt3', cat:'cafe', name:'Libertario Coffee Roasters', nit:'', barrio:'Getsemaní', tags:['Tostadores','Especialidad','Coworking'], rating:4.7, horario:'Lun–Sáb · 7am–6pm', precio:'$$ Promedio', desc:'Tostaduría artesanal en Getsemaní. Café de especialidad recién tostado, preparaciones de filtro y espresso impecables. Espacio de coworking para los que trabajan remoto.', img:'https://images.pexels.com/photos/30339561/pexels-photo-30339561.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 300 901 2345', instagram:'libertariocoffeeroasters', menu:['Pour over','Espresso doble','Cold brew','Pan artesanal'], coords:[10.4220,-75.5450] },
-  { id:12, orden:999, bg:'pt4', cat:'cafe', name:'Manna Breakfast & Lunch', nit:'', barrio:'Centro Histórico', tags:['Desayuno','Brunch','Saludable'], rating:4.7, horario:'Lun–Dom · 7am–4pm', precio:'$$ Promedio', desc:'El mejor brunch del Centro. Ingredientes frescos, opciones saludables y un café que despierta hasta al más dormido. Atendido por su dueño, un argentino enamorado de Cartagena.', img:'https://images.pexels.com/photos/7664367/pexels-photo-7664367.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 301 012 3456', instagram:'mannacafebar', menu:['Acai bowl','Huevos benedictinos','Smoothie verde','Espresso'], coords:[10.4203,-75.5462] },
-  { id:13, orden:999, bg:'pt5', cat:'cafe', name:'Señor Titis Coffee & Gifts', nit:'', barrio:'Centro Histórico', tags:['Café','Regalos','Colombiano'], rating:4.5, horario:'Lun–Dom · 9am–8pm', precio:'$ Económico', desc:'Cafetería boutique que también vende artesanías colombianas. Café de la Sierra Nevada en cada taza, ambiente familiar y el mejor souvenir: una bolsa de café recién tostado.', img:'https://images.pexels.com/photos/29298129/pexels-photo-29298129.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 301 123 4567', instagram:'senortitiscoffee', menu:['Café filtrado','Chocolate caliente','Arepa con queso','Bocadillo veleño'], coords:[10.4265,-75.5481] },
+  // --- CAFÃƒÆ’Ã¢â‚¬Â°S ---
+  { id:8, orden:999, bg:'pt8', cat:'cafe', name:'ÃƒÆ’Ã¢â‚¬Â°poca CafÃƒÆ’Ã‚Â© Bar', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['CafÃƒÆ’Ã‚Â© de especialidad','Brunch','Wifi'], rating:4.8, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 7amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“9pm', precio:'$$ Promedio', desc:'CafeterÃƒÆ’Ã‚Â­a de especialidad con ambiente parisino aÃƒÆ’Ã‚Â±os 40. CafÃƒÆ’Ã‚Â© de origen colombiano certificado y una carta de desayunos que enamora. El cardamomo latte es legendario.', img:'https://images.pexels.com/photos/29250093/pexels-photo-29250093.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 300 789 0123', instagram:'epocacafebar', menu:['Cardamomo Latte','Espresso','Banana Bread','SÃƒÆ’Ã‚Â¡ndwich de pollo'], coords:[10.4238,-75.5503] },
+  { id:9, orden:999, bg:'pt1', cat:'cafe', name:'ÃƒÆ’Ã‚Âbaco Libros y CafÃƒÆ’Ã‚Â©', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['LibrerÃƒÆ’Ã‚Â­a','CafÃƒÆ’Ã‚Â©','Lectura'], rating:4.6, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“9pm', precio:'$$ Promedio', desc:'LibrerÃƒÆ’Ã‚Â­a-cafÃƒÆ’Ã‚Â© de cuento con estantes hasta el techo y escalera tipo Beauty and the Beast. CafÃƒÆ’Ã‚Â© bien servido entre libros, ideal para una tarde de lectura o conversaciÃƒÆ’Ã‚Â³n.', img:'https://images.pexels.com/photos/32445699/pexels-photo-32445699.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 605 660 4745', instagram:'abacolibrosycafe', menu:['Cappuccino','TÃƒÆ’Ã‚Â© chai','Brownie','Croissant'], coords:[10.4250,-75.5512] },
+  { id:10, orden:999, bg:'pt2', cat:'cafe', name:'CafÃƒÆ’Ã‚Â© del Mural', nit:'', barrio:'GetsemanÃƒÆ’Ã‚Â­', tags:['CafÃƒÆ’Ã‚Â©','Arte callejero','Terraza'], rating:4.6, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 8amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“6pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'En pleno GetsemanÃƒÆ’Ã‚Â­, frente al mural mÃƒÆ’Ã‚Â¡s instagrameable del barrio. CafÃƒÆ’Ã‚Â© de filtro, buena mÃƒÆ’Ã‚Âºsica y una terraza perfecta para ver la vida pasar. Punto de encuentro de viajeros.', img:'https://images.pexels.com/photos/30774028/pexels-photo-30774028.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 300 890 1234', instagram:'cafedelmuralctg', menu:['Tinto colombiano','CafÃƒÆ’Ã‚Â© con leche','Jugo de naranja','Pan de bono'], coords:[10.4201,-75.5465] },
+  { id:11, orden:999, bg:'pt3', cat:'cafe', name:'Libertario Coffee Roasters', nit:'', barrio:'GetsemanÃƒÆ’Ã‚Â­', tags:['Tostadores','Especialidad','Coworking'], rating:4.7, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 7amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“6pm', precio:'$$ Promedio', desc:'TostadurÃƒÆ’Ã‚Â­a artesanal en GetsemanÃƒÆ’Ã‚Â­. CafÃƒÆ’Ã‚Â© de especialidad reciÃƒÆ’Ã‚Â©n tostado, preparaciones de filtro y espresso impecables. Espacio de coworking para los que trabajan remoto.', img:'https://images.pexels.com/photos/30339561/pexels-photo-30339561.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 300 901 2345', instagram:'libertariocoffeeroasters', menu:['Pour over','Espresso doble','Cold brew','Pan artesanal'], coords:[10.4220,-75.5450] },
+  { id:12, orden:999, bg:'pt4', cat:'cafe', name:'Manna Breakfast & Lunch', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Desayuno','Brunch','Saludable'], rating:4.7, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 7amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“4pm', precio:'$$ Promedio', desc:'El mejor brunch del Centro. Ingredientes frescos, opciones saludables y un cafÃƒÆ’Ã‚Â© que despierta hasta al mÃƒÆ’Ã‚Â¡s dormido. Atendido por su dueÃƒÆ’Ã‚Â±o, un argentino enamorado de Cartagena.', img:'https://images.pexels.com/photos/7664367/pexels-photo-7664367.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 301 012 3456', instagram:'mannacafebar', menu:['Acai bowl','Huevos benedictinos','Smoothie verde','Espresso'], coords:[10.4203,-75.5462] },
+  { id:13, orden:999, bg:'pt5', cat:'cafe', name:'SeÃƒÆ’Ã‚Â±or Titis Coffee & Gifts', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['CafÃƒÆ’Ã‚Â©','Regalos','Colombiano'], rating:4.5, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“8pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'CafeterÃƒÆ’Ã‚Â­a boutique que tambiÃƒÆ’Ã‚Â©n vende artesanÃƒÆ’Ã‚Â­as colombianas. CafÃƒÆ’Ã‚Â© de la Sierra Nevada en cada taza, ambiente familiar y el mejor souvenir: una bolsa de cafÃƒÆ’Ã‚Â© reciÃƒÆ’Ã‚Â©n tostado.', img:'https://images.pexels.com/photos/29298129/pexels-photo-29298129.jpeg?auto=compress&cs=tinysrgb&w=1200', telefono:'+57 301 123 4567', instagram:'senortitiscoffee', menu:['CafÃƒÆ’Ã‚Â© filtrado','Chocolate caliente','Arepa con queso','Bocadillo veleÃƒÆ’Ã‚Â±o'], coords:[10.4265,-75.5481] },
 
-  // ═══ COMIDA ═══
-  { id:14, orden:999, bg:'pt6', cat:'comida', name:'Celele', nit:'', barrio:'Centro Histórico', tags:['Gastronomía','Alta cocina','Caribe'], rating:4.9, horario:'Mar–Sáb · 12pm–10pm', precio:'$$$ Alta cocina', desc:'Uno de los mejores restaurantes de Colombia según Latin America. Reconocido entre los mejores del pais.', img:'https://images.pexels.com/photos/29962487/pexels-photo-29962487.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 6790', instagram:'celelerestaurante', menu:['Tartar de camarones','Lomo de cerdo con corozo','Arroz de chipi chipi','Cocada con helado'], coords:[10.4222,-75.5445] },
-  { id:15, orden:999, bg:'pt7', cat:'comida', name:'Carmen Cartagena', nit:'', barrio:'Centro Histórico', tags:['Cocina fusión','Elegante','Chef'], rating:4.8, horario:'Mar–Dom · 12pm–11pm', precio:'$$$ Alta cocina', desc:'Restaurante emblemático dentro de una casa colonial restaurada. Fusión de sabores colombianos con técnicas internacionales. El cerdo con salsa de tamarindo y la terraza son imperdibles.', img:'https://images.pexels.com/photos/6844877/pexels-photo-6844877.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 7276', instagram:'carmencartagena', menu:['Cerdo glaseado con tamarindo','Ceviche de pescado','Arroz con coco y langostinos','Postre de tres leches'], coords:[10.4269,-75.5478] },
-  { id:16, orden:999, bg:'pt8', cat:'comida', name:'Buena Vida Marisquería y Rooftop', nit:'', barrio:'Centro Histórico', tags:['Mariscos','Rooftop','Vista'], rating:4.7, horario:'Lun–Dom · 12pm–11pm', precio:'$$$ Exclusivo', desc:'Marisquería en la azotea con vista panorámica de la ciudad. Mariscos frescos, coctelería de autor y un atardecer que compite con la comida. El lugar perfecto para una cena especial.', img:'https://images.pexels.com/photos/9360525/pexels-photo-9360525.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 7277', instagram:'buenavidamarisqueria', menu:['Ceviche mixto','Langosta al grill','Arroz de mariscos','Pulpo al olivo'], coords:[10.4242,-75.5518] },
-  { id:17, orden:999, bg:'pt1', cat:'comida', name:'Interno', nit:'', barrio:'San Diego', tags:['Cocina local','Proyecto social','Reservar'], rating:4.7, horario:'Mar–Sáb · 12pm–3pm', precio:'$$$ Exclusivo', desc:'Dentro de la cárcel de mujeres de San Diego. Cocina de autor que empodera a las internas a través de la gastronomía. Comer aquí es delicioso y transformador. Hay que reservar con días de anticipación.', img:'https://images.pexels.com/photos/6213723/pexels-photo-6213723.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 234 5678', instagram:'internocartagena', menu:['Menú degustación','Pescado en costra de coco','Arroz con frijol cabecita negra','Dulce de papaya'], coords:[10.4245,-75.5494] },
-  { id:18, orden:999, bg:'pt2', cat:'comida', name:'La Cevichería', nit:'', barrio:'Centro Histórico', tags:['Ceviche','Mariscos','Tradicional'], rating:4.6, horario:'Lun–Dom · 11am–10pm', precio:'$$ Promedio', desc:'Cevichería tradicional con más de 15 tipos de ceviche. El favorito de locales y turistas por igual. Ingredientes frescos, porciones generosas y un sabor que sabe a Caribe en cada bocado.', img:'https://images.pexels.com/photos/29168410/pexels-photo-29168410.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 1234', instagram:'lacevicheriactg', menu:['Ceviche de camarón','Ceviche mixto','Ceviche de pescado','Patacones con hogao'], coords:[10.4238,-75.5508] },
-  { id:19, orden:999, bg:'pt3', cat:'comida', name:'San Pascual Baylón', nit:'', barrio:'Centro Histórico', tags:['Colombiana','Casera','Familiar'], rating:4.8, horario:'Lun–Dom · 11am–9pm', precio:'$$ Promedio', desc:'Cocina colombiana casera en una casa colonial con patio. El sancocho de pescado los viernes es una institución. Platos generosos, bien servidos y con el sabor de la abuela cartagenera.', img:'https://images.pexels.com/photos/29496090/pexels-photo-29496090.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 345 6789', instagram:'sanpascualbaylon', menu:['Sancocho de pescado','Bandeja paisa','Arroz con coco','Jugo de corozo'], coords:[10.4240,-75.5502] },
-  { id:20, orden:999, bg:'pt4', cat:'comida', name:'Baroca Sabor Ancestral Rooftop', nit:'', barrio:'Centro Histórico', tags:['Ancestral','Rooftop','Cócteles'], rating:4.8, horario:'Lun–Dom · 12pm–11pm', precio:'$$$ Exclusivo', desc:'Cocina ancestral caribeña en rooftop con vista a las murallas. Sabores tradicionales reinventados con presentación impecable. El maridaje de cócteles con cada plato es una experiencia en sí misma.', img:'https://images.pexels.com/photos/31491025/pexels-photo-31491025.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 456 7890', instagram:'barocartagena', menu:['Ceviche de mango verde','Pescado en hoja de bijao','Arroz negrito','Cóctel de zapote'], coords:[10.4219,-75.5465] },
-  { id:21, orden:999, bg:'pt5', cat:'comida', name:'El Burlador Mediterráneo-Caribe', nit:'', barrio:'Centro Histórico', tags:['Mediterráneo','Mariscos','Elegante'], rating:4.7, horario:'Lun–Dom · 12pm–11pm', precio:'$$$ Exclusivo', desc:'Fusión mediterránea con ingredientes caribeños en una casona del siglo XVII. La paella de mariscos y el pulpo son los más pedidos. Atención impecable y un patio colonial que enamora.', img:'https://images.pexels.com/photos/8707059/pexels-photo-8707059.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 8990', instagram:'elburladorcartagena', menu:['Paella de mariscos','Pulpo a la parrilla','Ceviche de pescado','Crema catalana'], coords:[10.4236,-75.5501] },
-  { id:22, orden:999, bg:'pt6', cat:'comida', name:'Totopo', nit:'', barrio:'Getsemaní', tags:['Mexicano','Casual','Plaza'], rating:4.4, horario:'Lun–Dom · 12pm–10pm', precio:'$$ Promedio', desc:'En la esquina de la Plaza Fernández Madrid. Cocina mexicana con toque caribeño. Tacos, burritos y margaritas en un ambiente relajado. Perfecto para comer rico sin gastar de más.', img:'https://images.pexels.com/photos/5848706/pexels-photo-5848706.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 567 8901', instagram:'totopoctg', menu:['Tacos al pastor','Burrito de pollo','Margarita clásica','Guacamole'], coords:[10.4227,-75.5459] },
-  { id:23, orden:999, bg:'pt7', cat:'comida', name:'Restaurante Olano', nit:'', barrio:'Centro Histórico', tags:['Francesa','Caribe','Elegante'], rating:4.6, horario:'Mar–Sáb · 12pm–10pm', precio:'$$$ Exclusivo', desc:'Cocina francesa con alma caribeña en el Centro Histórico. Las muelas de cangrejo de entrada son legendarias. Menú degustación que sorprende en cada paso. Terraza íntima con encanto colonial.', img:'https://images.pexels.com/photos/8350134/pexels-photo-8350134.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 4567', instagram:'dondeolano', menu:['Muelas de cangrejo','Solomillo al vino tinto','Tartar de atún','Crème brûlée'], coords:[10.4235,-75.5503] },
+  // --- COMIDA ---
+  { id:14, orden:999, bg:'pt6', cat:'comida', name:'Celele', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['GastronomÃƒÆ’Ã‚Â­a','Alta cocina','Caribe'], rating:4.9, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“10pm', precio:'$$$ Alta cocina', desc:'Uno de los mejores restaurantes de Colombia segÃƒÆ’Ã‚Âºn Latin America. Reconocido entre los mejores del pais.', img:'https://images.pexels.com/photos/29962487/pexels-photo-29962487.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 6790', instagram:'celelerestaurante', menu:['Tartar de camarones','Lomo de cerdo con corozo','Arroz de chipi chipi','Cocada con helado'], coords:[10.4222,-75.5445] },
+  { id:15, orden:999, bg:'pt7', cat:'comida', name:'Carmen Cartagena', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Cocina fusiÃƒÆ’Ã‚Â³n','Elegante','Chef'], rating:4.8, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“11pm', precio:'$$$ Alta cocina', desc:'Restaurante emblemÃƒÆ’Ã‚Â¡tico dentro de una casa colonial restaurada. FusiÃƒÆ’Ã‚Â³n de sabores colombianos con tÃƒÆ’Ã‚Â©cnicas internacionales. El cerdo con salsa de tamarindo y la terraza son imperdibles.', img:'https://images.pexels.com/photos/6844877/pexels-photo-6844877.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 7276', instagram:'carmencartagena', menu:['Cerdo glaseado con tamarindo','Ceviche de pescado','Arroz con coco y langostinos','Postre de tres leches'], coords:[10.4269,-75.5478] },
+  { id:16, orden:999, bg:'pt8', cat:'comida', name:'Buena Vida MarisquerÃƒÆ’Ã‚Â­a y Rooftop', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Mariscos','Rooftop','Vista'], rating:4.7, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“11pm', precio:'$$$ Exclusivo', desc:'MarisquerÃƒÆ’Ã‚Â­a en la azotea con vista panorÃƒÆ’Ã‚Â¡mica de la ciudad. Mariscos frescos, coctelerÃƒÆ’Ã‚Â­a de autor y un atardecer que compite con la comida. El lugar perfecto para una cena especial.', img:'https://images.pexels.com/photos/9360525/pexels-photo-9360525.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 7277', instagram:'buenavidamarisqueria', menu:['Ceviche mixto','Langosta al grill','Arroz de mariscos','Pulpo al olivo'], coords:[10.4242,-75.5518] },
+  { id:17, orden:999, bg:'pt1', cat:'comida', name:'Interno', nit:'', barrio:'San Diego', tags:['Cocina local','Proyecto social','Reservar'], rating:4.7, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3pm', precio:'$$$ Exclusivo', desc:'Dentro de la cÃƒÆ’Ã‚Â¡rcel de mujeres de San Diego. Cocina de autor que empodera a las internas a travÃƒÆ’Ã‚Â©s de la gastronomÃƒÆ’Ã‚Â­a. Comer aquÃƒÆ’Ã‚Â­ es delicioso y transformador. Hay que reservar con dÃƒÆ’Ã‚Â­as de anticipaciÃƒÆ’Ã‚Â³n.', img:'https://images.pexels.com/photos/6213723/pexels-photo-6213723.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 234 5678', instagram:'internocartagena', menu:['MenÃƒÆ’Ã‚Âº degustaciÃƒÆ’Ã‚Â³n','Pescado en costra de coco','Arroz con frijol cabecita negra','Dulce de papaya'], coords:[10.4245,-75.5494] },
+  { id:18, orden:999, bg:'pt2', cat:'comida', name:'La CevicherÃƒÆ’Ã‚Â­a', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Ceviche','Mariscos','Tradicional'], rating:4.6, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 11amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“10pm', precio:'$$ Promedio', desc:'CevicherÃƒÆ’Ã‚Â­a tradicional con mÃƒÆ’Ã‚Â¡s de 15 tipos de ceviche. El favorito de locales y turistas por igual. Ingredientes frescos, porciones generosas y un sabor que sabe a Caribe en cada bocado.', img:'https://images.pexels.com/photos/29168410/pexels-photo-29168410.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 1234', instagram:'lacevicheriactg', menu:['Ceviche de camarÃƒÆ’Ã‚Â³n','Ceviche mixto','Ceviche de pescado','Patacones con hogao'], coords:[10.4238,-75.5508] },
+  { id:19, orden:999, bg:'pt3', cat:'comida', name:'San Pascual BaylÃƒÆ’Ã‚Â³n', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Colombiana','Casera','Familiar'], rating:4.8, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 11amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“9pm', precio:'$$ Promedio', desc:'Cocina colombiana casera en una casa colonial con patio. El sancocho de pescado los viernes es una instituciÃƒÆ’Ã‚Â³n. Platos generosos, bien servidos y con el sabor de la abuela cartagenera.', img:'https://images.pexels.com/photos/29496090/pexels-photo-29496090.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 345 6789', instagram:'sanpascualbaylon', menu:['Sancocho de pescado','Bandeja paisa','Arroz con coco','Jugo de corozo'], coords:[10.4240,-75.5502] },
+  { id:20, orden:999, bg:'pt4', cat:'comida', name:'Baroca Sabor Ancestral Rooftop', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Ancestral','Rooftop','CÃƒÆ’Ã‚Â³cteles'], rating:4.8, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“11pm', precio:'$$$ Exclusivo', desc:'Cocina ancestral caribeÃƒÆ’Ã‚Â±a en rooftop con vista a las murallas. Sabores tradicionales reinventados con presentaciÃƒÆ’Ã‚Â³n impecable. El maridaje de cÃƒÆ’Ã‚Â³cteles con cada plato es una experiencia en sÃƒÆ’Ã‚Â­ misma.', img:'https://images.pexels.com/photos/31491025/pexels-photo-31491025.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 456 7890', instagram:'barocartagena', menu:['Ceviche de mango verde','Pescado en hoja de bijao','Arroz negrito','CÃƒÆ’Ã‚Â³ctel de zapote'], coords:[10.4219,-75.5465] },
+  { id:21, orden:999, bg:'pt5', cat:'comida', name:'El Burlador MediterrÃƒÆ’Ã‚Â¡neo-Caribe', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['MediterrÃƒÆ’Ã‚Â¡neo','Mariscos','Elegante'], rating:4.7, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“11pm', precio:'$$$ Exclusivo', desc:'FusiÃƒÆ’Ã‚Â³n mediterrÃƒÆ’Ã‚Â¡nea con ingredientes caribeÃƒÆ’Ã‚Â±os en una casona del siglo XVII. La paella de mariscos y el pulpo son los mÃƒÆ’Ã‚Â¡s pedidos. AtenciÃƒÆ’Ã‚Â³n impecable y un patio colonial que enamora.', img:'https://images.pexels.com/photos/8707059/pexels-photo-8707059.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 8990', instagram:'elburladorcartagena', menu:['Paella de mariscos','Pulpo a la parrilla','Ceviche de pescado','Crema catalana'], coords:[10.4236,-75.5501] },
+  { id:22, orden:999, bg:'pt6', cat:'comida', name:'Totopo', nit:'', barrio:'GetsemanÃƒÆ’Ã‚Â­', tags:['Mexicano','Casual','Plaza'], rating:4.4, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“10pm', precio:'$$ Promedio', desc:'En la esquina de la Plaza FernÃƒÆ’Ã‚Â¡ndez Madrid. Cocina mexicana con toque caribeÃƒÆ’Ã‚Â±o. Tacos, burritos y margaritas en un ambiente relajado. Perfecto para comer rico sin gastar de mÃƒÆ’Ã‚Â¡s.', img:'https://images.pexels.com/photos/5848706/pexels-photo-5848706.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 300 567 8901', instagram:'totopoctg', menu:['Tacos al pastor','Burrito de pollo','Margarita clÃƒÆ’Ã‚Â¡sica','Guacamole'], coords:[10.4227,-75.5459] },
+  { id:23, orden:999, bg:'pt7', cat:'comida', name:'Restaurante Olano', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Francesa','Caribe','Elegante'], rating:4.6, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 12pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“10pm', precio:'$$$ Exclusivo', desc:'Cocina francesa con alma caribeÃƒÆ’Ã‚Â±a en el Centro HistÃƒÆ’Ã‚Â³rico. Las muelas de cangrejo de entrada son legendarias. MenÃƒÆ’Ã‚Âº degustaciÃƒÆ’Ã‚Â³n que sorprende en cada paso. Terraza ÃƒÆ’Ã‚Â­ntima con encanto colonial.', img:'https://images.pexels.com/photos/8350134/pexels-photo-8350134.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 660 4567', instagram:'dondeolano', menu:['Muelas de cangrejo','Solomillo al vino tinto','Tartar de atÃƒÆ’Ã‚Âºn','CrÃƒÆ’Ã‚Â¨me brÃƒÆ’Ã‚Â»lÃƒÆ’Ã‚Â©e'], coords:[10.4235,-75.5503] },
 
-  // ═══ ARTE ═══
-  { id:24, orden:999, bg:'pt8', cat:'arte', name:'Museo del Oro Zenú', nit:'', barrio:'Centro Histórico', tags:['Oro','Arqueología','Historia'], rating:4.6, horario:'Mar–Sáb · 9am–6pm', precio:'$ Económico', desc:'Piezas de oro de la cultura Zenú en una casa colonial restaurada. Una colección fascinante que narra la historia precolombina del Caribe colombiano. Entrada muy económica y gratuita los domingos.', img:'https://images.pexels.com/photos/20610629/pexels-photo-20610629.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 5481', instagram:'museodelorogenu', menu:[''], coords:[10.4239,-75.5517] },
-  { id:25, orden:999, bg:'pt1', cat:'arte', name:'Museo de Arte Moderno de Cartagena', nit:'', barrio:'Centro Histórico', tags:['Arte','Moderno','Exposiciones'], rating:4.5, horario:'Mar–Dom · 10am–6pm', precio:'$ Económico', desc:'La colección de arte moderno y contemporáneo más importante de la ciudad. Obras de Enrique Grau, Alejandro Obregón y artistas emergentes del Caribe. Exposiciones temporales todo el año.', img:'https://images.pexels.com/photos/36900018/pexels-photo-36900018.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 5815', instagram:'mamcartagena', menu:[''], coords:[10.4228,-75.5503] },
-  { id:26, orden:999, bg:'pt2', cat:'arte', name:'Santuario Museo San Pedro Claver', nit:'', barrio:'Centro Histórico', tags:['Religioso','Colonial','Museo'], rating:4.7, horario:'Lun–Sáb · 8am–5pm', precio:'$ Económico', desc:'Iglesia y museo dedicado a San Pedro Claver, el esclavo de los esclavos. Arquitectura barroca impresionante, claustro colonial y una historia conmovedora. La plaza frente al museo es de las más bellas.', img:'https://images.pexels.com/photos/13809258/pexels-photo-13809258.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 1308', instagram:'sanpedroclaver', menu:[''], coords:[10.4227,-75.5505] },
-  { id:27, orden:999, bg:'pt3', cat:'arte', name:'Museo Naval del Caribe', nit:'', barrio:'Centro Histórico', tags:['Naval','Historia','Marítimo'], rating:4.4, horario:'Mar–Dom · 10am–5:30pm', precio:'$ Económico', desc:'Historia naval de Cartagena y el Caribe en un edificio colonial junto a la muralla. Maquetas de barcos, mapas antiguos y la historia de la defensa de la ciudad contra piratas e invasores.', img:'https://images.pexels.com/photos/28225743/pexels-photo-28225743.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 2440', instagram:'museonavaldelcaribe', menu:[''], coords:[10.4232,-75.5493] },
-  { id:28, orden:999, bg:'pt4', cat:'arte', name:'Casa Museo Rafael Núñez', nit:'', barrio:'El Cabrero', tags:['Historia','Casa museo','Presidente'], rating:4.5, horario:'Mar–Dom · 9am–5pm', precio:'$ Económico', desc:'La casa donde vivió Rafael Núñez, cuatro veces presidente de Colombia y autor de la Constitución de 1886. Mobilario original, objetos personales y un jardín que invita a la nostalgia.', img:'https://images.pexels.com/photos/14947524/pexels-photo-14947524.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 4040', instagram:'casamuseonunez', menu:[''], coords:[10.4153,-75.5449] },
-  { id:29, orden:999, bg:'pt5', cat:'arte', name:'Palacio de la Inquisición', nit:'', barrio:'Centro Histórico', tags:['Historia','Museo','Arquitectura'], rating:4.5, horario:'Lun–Sáb · 9am–6pm', precio:'$ Económico', desc:'Imponente edificio colonial que albergó el Tribunal del Santo Oficio. Museo Histórico de Cartagena con salas que narran la época colonial, la independencia y la inquisición. Imperdible.', img:'https://images.pexels.com/photos/20375711/pexels-photo-20375711.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 4570', instagram:'museohistoricoctg', menu:[''], coords:[10.4229,-75.5514] },
-  { id:30, orden:999, bg:'pt6', cat:'arte', name:'Las Bóvedas', nit:'', barrio:'Centro Histórico', tags:['Artesanías','Galería','Muralla'], rating:4.3, horario:'Lun–Dom · 9am–9pm', precio:'$ Económico', desc:'23 bóvedas construidas dentro de la muralla en el siglo XVIII, hoy convertidas en galería de artesanías y arte local. Esmeraldas, hamacas, cuadros y recuerdos auténticos de la costa caribe.', img:'https://images.pexels.com/photos/24514434/pexels-photo-24514434.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4246,-75.5536] },
+  // --- ARTE ---
+  { id:24, orden:999, bg:'pt8', cat:'arte', name:'Museo del Oro ZenÃƒÆ’Ã‚Âº', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Oro','ArqueologÃƒÆ’Ã‚Â­a','Historia'], rating:4.6, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“6pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'Piezas de oro de la cultura ZenÃƒÆ’Ã‚Âº en una casa colonial restaurada. Una colecciÃƒÆ’Ã‚Â³n fascinante que narra la historia precolombina del Caribe colombiano. Entrada muy econÃƒÆ’Ã‚Â³mica y gratuita los domingos.', img:'https://images.pexels.com/photos/20610629/pexels-photo-20610629.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 5481', instagram:'museodelorogenu', menu:[''], coords:[10.4239,-75.5517] },
+  { id:25, orden:999, bg:'pt1', cat:'arte', name:'Museo de Arte Moderno de Cartagena', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Arte','Moderno','Exposiciones'], rating:4.5, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 10amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“6pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'La colecciÃƒÆ’Ã‚Â³n de arte moderno y contemporÃƒÆ’Ã‚Â¡neo mÃƒÆ’Ã‚Â¡s importante de la ciudad. Obras de Enrique Grau, Alejandro ObregÃƒÆ’Ã‚Â³n y artistas emergentes del Caribe. Exposiciones temporales todo el aÃƒÆ’Ã‚Â±o.', img:'https://images.pexels.com/photos/36900018/pexels-photo-36900018.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 5815', instagram:'mamcartagena', menu:[''], coords:[10.4228,-75.5503] },
+  { id:26, orden:999, bg:'pt2', cat:'arte', name:'Santuario Museo San Pedro Claver', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Religioso','Colonial','Museo'], rating:4.7, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 8amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“5pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'Iglesia y museo dedicado a San Pedro Claver, el esclavo de los esclavos. Arquitectura barroca impresionante, claustro colonial y una historia conmovedora. La plaza frente al museo es de las mÃƒÆ’Ã‚Â¡s bellas.', img:'https://images.pexels.com/photos/13809258/pexels-photo-13809258.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 1308', instagram:'sanpedroclaver', menu:[''], coords:[10.4227,-75.5505] },
+  { id:27, orden:999, bg:'pt3', cat:'arte', name:'Museo Naval del Caribe', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Naval','Historia','MarÃƒÆ’Ã‚Â­timo'], rating:4.4, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 10amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“5:30pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'Historia naval de Cartagena y el Caribe en un edificio colonial junto a la muralla. Maquetas de barcos, mapas antiguos y la historia de la defensa de la ciudad contra piratas e invasores.', img:'https://images.pexels.com/photos/28225743/pexels-photo-28225743.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 2440', instagram:'museonavaldelcaribe', menu:[''], coords:[10.4232,-75.5493] },
+  { id:28, orden:999, bg:'pt4', cat:'arte', name:'Casa Museo Rafael NÃƒÆ’Ã‚ÂºÃƒÆ’Ã‚Â±ez', nit:'', barrio:'El Cabrero', tags:['Historia','Casa museo','Presidente'], rating:4.5, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“5pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'La casa donde viviÃƒÆ’Ã‚Â³ Rafael NÃƒÆ’Ã‚ÂºÃƒÆ’Ã‚Â±ez, cuatro veces presidente de Colombia y autor de la ConstituciÃƒÆ’Ã‚Â³n de 1886. Mobilario original, objetos personales y un jardÃƒÆ’Ã‚Â­n que invita a la nostalgia.', img:'https://images.pexels.com/photos/14947524/pexels-photo-14947524.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 4040', instagram:'casamuseonunez', menu:[''], coords:[10.4153,-75.5449] },
+  { id:29, orden:999, bg:'pt5', cat:'arte', name:'Palacio de la InquisiciÃƒÆ’Ã‚Â³n', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Historia','Museo','Arquitectura'], rating:4.5, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“6pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'Imponente edificio colonial que albergÃƒÆ’Ã‚Â³ el Tribunal del Santo Oficio. Museo HistÃƒÆ’Ã‚Â³rico de Cartagena con salas que narran la ÃƒÆ’Ã‚Â©poca colonial, la independencia y la inquisiciÃƒÆ’Ã‚Â³n. Imperdible.', img:'https://images.pexels.com/photos/20375711/pexels-photo-20375711.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 664 4570', instagram:'museohistoricoctg', menu:[''], coords:[10.4229,-75.5514] },
+  { id:30, orden:999, bg:'pt6', cat:'arte', name:'Las BÃƒÆ’Ã‚Â³vedas', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['ArtesanÃƒÆ’Ã‚Â­as','GalerÃƒÆ’Ã‚Â­a','Muralla'], rating:4.3, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“9pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'23 bÃƒÆ’Ã‚Â³vedas construidas dentro de la muralla en el siglo XVIII, hoy convertidas en galerÃƒÆ’Ã‚Â­a de artesanÃƒÆ’Ã‚Â­as y arte local. Esmeraldas, hamacas, cuadros y recuerdos autÃƒÆ’Ã‚Â©nticos de la costa caribe.', img:'https://images.pexels.com/photos/24514434/pexels-photo-24514434.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4246,-75.5536] },
 
-  // ═══ PLAN ═══
-  { id:31, orden:999, bg:'pt7', cat:'plan', name:'Playa Blanca (Isla Barú)', nit:'', barrio:'Barú', tags:['Playa','Mar cristalino','Escape'], rating:4.5, horario:'Todos los días · 6am–5pm', precio:'$$ Promedio', desc:'La playa más famosa cerca de Cartagena. Arena blanca, aguas turquesa y palmeras. Se llega en lancha o por carretera. Ideal para un día de sol, mar y ceviche frente al agua. Fin de semana llega temprano.', img:'https://images.pexels.com/photos/32214906/pexels-photo-32214906.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.2567,-75.6006] },
-  { id:32, orden:999, bg:'pt8', cat:'plan', name:'Aviario Nacional de Colombia', nit:'', barrio:'Barú', tags:['Aves','Naturaleza','Familia'], rating:4.7, horario:'Lun–Dom · 9am–4pm', precio:'$$ Promedio', desc:'El aviario más grande de Colombia con más de 170 especies de aves. Recorrido guiado entre túneles de naturaleza, jaguares y flamencos. Perfecto para ir en familia o con amigos. Combínalo con Playa Blanca.', img:'https://images.pexels.com/photos/15037526/pexels-photo-15037526.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 668 7171', instagram:'aviariocolombia', menu:[''], coords:[10.3056,-75.5614] },
-  { id:33, orden:999, bg:'pt1', cat:'plan', name:'Chiva Tour — Rumba en Chiva', nit:'', barrio:'Centro Histórico', tags:['Rumba','Tradicional','Recorrido'], rating:4.3, horario:'Todos los días · 8pm–12am', precio:'$$ Promedio', desc:'El clásico paseo en chiva rumbera por las calles de Cartagena. Música, baile, paradas en miradores y una noche que termina en discoteca. La forma más divertida de conocer la ciudad de noche.', img:'https://images.pexels.com/photos/13804522/pexels-photo-13804522.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 234 5678', instagram:'chivatourctg', menu:[''], coords:[10.4228,-75.5500] },
-  { id:34, orden:999, bg:'pt2', cat:'plan', name:'Tour en Kayak por la Bahía', nit:'', barrio:'Centro Histórico', tags:['Kayak','Manglares','Deporte'], rating:4.5, horario:'Lun–Dom · 7am–5pm', precio:'$$ Promedio', desc:'Remar por la bahía interna y los manglares de Cartagena. Una perspectiva única de la ciudad desde el agua. Guías locales que conocen la historia del puerto y la biodiversidad del ecosistema.', img:'https://images.pexels.com/photos/7483078/pexels-photo-7483078.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 345 6789', instagram:'', menu:[''], coords:[10.4250,-75.5450] },
-  { id:35, orden:999, bg:'pt3', cat:'plan', name:'Buceo en Islas del Rosario', nit:'', barrio:'Islas del Rosario', tags:['Buceo','Arrecifes','Marino'], rating:4.6, horario:'Salidas diarias · 7am–3pm', precio:'$$$ Exclusivo', desc:'Parque Nacional Natural Corales del Rosario. Buceo y snorkel en arrecifes de coral con peces tropicales, rayas y tortugas. Hay opciones para principiantes y certificados. Incluye almuerzo y transporte en lancha.', img:'https://images.pexels.com/photos/7970793/pexels-photo-7970793.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 456 7890', instagram:'parquecorales', menu:[''], coords:[10.1792,-75.7389] },
-  { id:36, orden:999, bg:'pt4', cat:'plan', name:'Cerro de La Popa', nit:'', barrio:'La Popa', tags:['Mirador','Historia','Vista 360°'], rating:4.5, horario:'Lun–Dom · 8am–6pm', precio:'$ Económico', desc:'El punto más alto de Cartagena con vista panorámica de toda la ciudad, la bahía y Bocagrande. Convento del siglo XVII en la cima. La vista al atardecer es espectacular y la brisa, inolvidable.', img:'https://images.pexels.com/photos/6381082/pexels-photo-6381082.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4202,-75.5274] },
-  { id:37, orden:999, bg:'pt5', cat:'plan', name:'Torre del Reloj', nit:'', barrio:'Centro Histórico', tags:['Mirador','Entrada','Fotos'], rating:4.5, horario:'Lun–Dom · 9am–8pm', precio:'$ Económico', desc:'La puerta principal de la ciudad amurallada. Subir a la torre te regala una vista espectacular de la Plaza de la Independencia y el arco que da la bienvenida a miles de viajeros cada año.', img:'https://images.pexels.com/photos/20375712/pexels-photo-20375712.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4231,-75.5493] },
-  { id:38, orden:999, bg:'pt6', cat:'plan', name:'Plaza de la Trinidad', nit:'', barrio:'Getsemaní', tags:['Plaza','Cultura','Gente local'], rating:4.4, horario:'Abierta siempre', precio:'Gratis', desc:'El corazón de Getsemaní. Plaza bulliciosa donde los vecinos se sientan a tomar fresco, los niños juegan fútbol y los turistas se mezclan con la vida real del barrio. Iglesia icónica al fondo.', img:'https://images.pexels.com/photos/18016887/pexels-photo-18016887.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4217,-75.5457] },
-  { id:39, orden:999, bg:'pt7', cat:'plan', name:'Mercado de Bazurto', nit:'', barrio:'Bazurto', tags:['Mercado','Local','Auténtico'], rating:4.3, horario:'Lun–Sáb · 5am–4pm', precio:'$ Económico', desc:'El mercado más auténtico de Cartagena. Frutas exóticas, pescado fresco, jugos naturales y el mejor frito de la ciudad. No es un lugar turístico sino la verdadera cara de Cartagena. Ideal para almorzar como local.', img:'https://images.pexels.com/photos/36895093/pexels-photo-36895093.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4067,-75.5220] },
-  { id:40, orden:999, bg:'pt8', cat:'plan', name:'Amaré Rooftop', nit:'', barrio:'Centro Histórico', tags:['Rooftop','Cócteles','Vista'], rating:4.5, horario:'Lun–Dom · 4pm–12am', precio:'$$$ Exclusivo', desc:'Azotea elegante con piscina infinita y vista a la ciudad amurallada. Cócteles de autor al atardecer con la brisa del Caribe. Ambiente sofisticado pero relajado. El lugar para un atardecer inolvidable.', img:'https://images.pexels.com/photos/33553690/pexels-photo-33553690.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 567 8901', instagram:'amarerooftop', menu:['Mojito de maracuyá','Piña colada','Ceviche','Copa de vino espumoso'], coords:[10.4252,-75.5521] },
+  // --- PLAN ---
+  { id:31, orden:999, bg:'pt7', cat:'plan', name:'Playa Blanca (Isla BarÃƒÆ’Ã‚Âº)', nit:'', barrio:'BarÃƒÆ’Ã‚Âº', tags:['Playa','Mar cristalino','Escape'], rating:4.5, horario:'Todos los dÃƒÆ’Ã‚Â­as Ãƒâ€šÃ‚Â· 6amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“5pm', precio:'$$ Promedio', desc:'La playa mÃƒÆ’Ã‚Â¡s famosa cerca de Cartagena. Arena blanca, aguas turquesa y palmeras. Se llega en lancha o por carretera. Ideal para un dÃƒÆ’Ã‚Â­a de sol, mar y ceviche frente al agua. Fin de semana llega temprano.', img:'https://images.pexels.com/photos/32214906/pexels-photo-32214906.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.2567,-75.6006] },
+  { id:32, orden:999, bg:'pt8', cat:'plan', name:'Aviario Nacional de Colombia', nit:'', barrio:'BarÃƒÆ’Ã‚Âº', tags:['Aves','Naturaleza','Familia'], rating:4.7, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“4pm', precio:'$$ Promedio', desc:'El aviario mÃƒÆ’Ã‚Â¡s grande de Colombia con mÃƒÆ’Ã‚Â¡s de 170 especies de aves. Recorrido guiado entre tÃƒÆ’Ã‚Âºneles de naturaleza, jaguares y flamencos. Perfecto para ir en familia o con amigos. CombÃƒÆ’Ã‚Â­nalo con Playa Blanca.', img:'https://images.pexels.com/photos/15037526/pexels-photo-15037526.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 605 668 7171', instagram:'aviariocolombia', menu:[''], coords:[10.3056,-75.5614] },
+  { id:33, orden:999, bg:'pt1', cat:'plan', name:'Chiva Tour ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Rumba en Chiva', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Rumba','Tradicional','Recorrido'], rating:4.3, horario:'Todos los dÃƒÆ’Ã‚Â­as Ãƒâ€šÃ‚Â· 8pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12am', precio:'$$ Promedio', desc:'El clÃƒÆ’Ã‚Â¡sico paseo en chiva rumbera por las calles de Cartagena. MÃƒÆ’Ã‚Âºsica, baile, paradas en miradores y una noche que termina en discoteca. La forma mÃƒÆ’Ã‚Â¡s divertida de conocer la ciudad de noche.', img:'https://images.pexels.com/photos/13804522/pexels-photo-13804522.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 234 5678', instagram:'chivatourctg', menu:[''], coords:[10.4228,-75.5500] },
+  { id:34, orden:999, bg:'pt2', cat:'plan', name:'Tour en Kayak por la BahÃƒÆ’Ã‚Â­a', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Kayak','Manglares','Deporte'], rating:4.5, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 7amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“5pm', precio:'$$ Promedio', desc:'Remar por la bahÃƒÆ’Ã‚Â­a interna y los manglares de Cartagena. Una perspectiva ÃƒÆ’Ã‚Âºnica de la ciudad desde el agua. GuÃƒÆ’Ã‚Â­as locales que conocen la historia del puerto y la biodiversidad del ecosistema.', img:'https://images.pexels.com/photos/7483078/pexels-photo-7483078.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 345 6789', instagram:'', menu:[''], coords:[10.4250,-75.5450] },
+  { id:35, orden:999, bg:'pt3', cat:'plan', name:'Buceo en Islas del Rosario', nit:'', barrio:'Islas del Rosario', tags:['Buceo','Arrecifes','Marino'], rating:4.6, horario:'Salidas diarias Ãƒâ€šÃ‚Â· 7amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3pm', precio:'$$$ Exclusivo', desc:'Parque Nacional Natural Corales del Rosario. Buceo y snorkel en arrecifes de coral con peces tropicales, rayas y tortugas. Hay opciones para principiantes y certificados. Incluye almuerzo y transporte en lancha.', img:'https://images.pexels.com/photos/7970793/pexels-photo-7970793.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 456 7890', instagram:'parquecorales', menu:[''], coords:[10.1792,-75.7389] },
+  { id:36, orden:999, bg:'pt4', cat:'plan', name:'Cerro de La Popa', nit:'', barrio:'La Popa', tags:['Mirador','Historia','Vista 360Ãƒâ€šÃ‚Â°'], rating:4.5, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 8amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“6pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'El punto mÃƒÆ’Ã‚Â¡s alto de Cartagena con vista panorÃƒÆ’Ã‚Â¡mica de toda la ciudad, la bahÃƒÆ’Ã‚Â­a y Bocagrande. Convento del siglo XVII en la cima. La vista al atardecer es espectacular y la brisa, inolvidable.', img:'https://images.pexels.com/photos/6381082/pexels-photo-6381082.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4202,-75.5274] },
+  { id:37, orden:999, bg:'pt5', cat:'plan', name:'Torre del Reloj', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Mirador','Entrada','Fotos'], rating:4.5, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 9amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“8pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'La puerta principal de la ciudad amurallada. Subir a la torre te regala una vista espectacular de la Plaza de la Independencia y el arco que da la bienvenida a miles de viajeros cada aÃƒÆ’Ã‚Â±o.', img:'https://images.pexels.com/photos/20375712/pexels-photo-20375712.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4231,-75.5493] },
+  { id:38, orden:999, bg:'pt6', cat:'plan', name:'Plaza de la Trinidad', nit:'', barrio:'GetsemanÃƒÆ’Ã‚Â­', tags:['Plaza','Cultura','Gente local'], rating:4.4, horario:'Abierta siempre', precio:'Gratis', desc:'El corazÃƒÆ’Ã‚Â³n de GetsemanÃƒÆ’Ã‚Â­. Plaza bulliciosa donde los vecinos se sientan a tomar fresco, los niÃƒÆ’Ã‚Â±os juegan fÃƒÆ’Ã‚Âºtbol y los turistas se mezclan con la vida real del barrio. Iglesia icÃƒÆ’Ã‚Â³nica al fondo.', img:'https://images.pexels.com/photos/18016887/pexels-photo-18016887.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4217,-75.5457] },
+  { id:39, orden:999, bg:'pt7', cat:'plan', name:'Mercado de Bazurto', nit:'', barrio:'Bazurto', tags:['Mercado','Local','AutÃƒÆ’Ã‚Â©ntico'], rating:4.3, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 5amÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“4pm', precio:'$ EconÃƒÆ’Ã‚Â³mico', desc:'El mercado mÃƒÆ’Ã‚Â¡s autÃƒÆ’Ã‚Â©ntico de Cartagena. Frutas exÃƒÆ’Ã‚Â³ticas, pescado fresco, jugos naturales y el mejor frito de la ciudad. No es un lugar turÃƒÆ’Ã‚Â­stico sino la verdadera cara de Cartagena. Ideal para almorzar como local.', img:'https://images.pexels.com/photos/36895093/pexels-photo-36895093.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'', instagram:'', menu:[''], coords:[10.4067,-75.5220] },
+  { id:40, orden:999, bg:'pt8', cat:'plan', name:'AmarÃƒÆ’Ã‚Â© Rooftop', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Rooftop','CÃƒÆ’Ã‚Â³cteles','Vista'], rating:4.5, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 4pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12am', precio:'$$$ Exclusivo', desc:'Azotea elegante con piscina infinita y vista a la ciudad amurallada. CÃƒÆ’Ã‚Â³cteles de autor al atardecer con la brisa del Caribe. Ambiente sofisticado pero relajado. El lugar para un atardecer inolvidable.', img:'https://images.pexels.com/photos/33553690/pexels-photo-33553690.jpeg?auto=compress&cs=tinysrgb&w=1920', telefono:'+57 301 567 8901', instagram:'amarerooftop', menu:['Mojito de maracuyÃƒÆ’Ã‚Â¡','PiÃƒÆ’Ã‚Â±a colada','Ceviche','Copa de vino espumoso'], coords:[10.4252,-75.5521] },
 
-  // ═══ NOCHE ═══
-  { id:41, orden:999, bg:'pt1', cat:'noche', name:'Bazurto Social Club', nit:'', barrio:'Getsemaní', tags:['Champeta','Baile','Energía'], rating:4.6, horario:'Vie–Dom · 9pm–3am', precio:'$$ Promedio', desc:'Epicentro de la champeta en Getsemaní. Empieza como restaurante y se transforma en la discoteca más auténtica de la ciudad. La banda Bazurto All Star toca antes de la media noche. Baile asegurado.', img:'https://images.pexels.com/photos/30730352/pexels-photo-30730352.jpeg?w=1920', telefono:'+57 300 678 9012', instagram:'bazurtosocialclub', menu:['Cerveza','Ron','Champeta y salsa','Comida tradicional'], coords:[10.4220,-75.5458] },
-  { id:42, orden:999, bg:'pt2', cat:'noche', name:'La Jugada Club House', nit:'', barrio:'Centro Histórico', tags:['Urbano','Reggaetón','Elegante'], rating:4.5, horario:'Vie–Sáb · 9pm–3am', precio:'$$$ Exclusivo', desc:'Club house de los mismos creadores de La Movida. Inspiración Gatsby, música urbana y un sistema de sonido de última generación. Ambiente premium cerca de la Torre del Reloj. Fotos obligatorias.', img:'https://images.pexels.com/photos/1605417/pexels-photo-1605417.jpeg?w=1920', telefono:'+57 300 789 0123', instagram:'lajugadaclubhouse', menu:['Botella de whisky','Champán','Cerveza','Coctel de la casa'], coords:[10.4237,-75.5497] },
-  { id:43, orden:999, bg:'pt3', cat:'noche', name:'Seven 7 Times', nit:'', barrio:'Getsemaní', tags:['Discoteca','5 ambientes','Shows'], rating:4.5, horario:'Vie–Dom · 9pm–3am', precio:'$$$ Exclusivo', desc:'Cinco ambientes en un solo lugar: terraza, discoteca, sala de cócteles, karaoke y más. Shows en vivo de artistas locales. En Getsemaní, Calle Media Luna. Una experiencia nocturna completa en un solo sitio.', img:'https://images.pexels.com/photos/1766568/pexels-photo-1766568.jpeg?w=1920', telefono:'+57 300 890 1234', instagram:'seven7timescartagena', menu:['Cóctel de la casa','Cerveza','Whisky','Champán'], coords:[10.4214,-75.5448] },
-  { id:44, orden:999, bg:'pt4', cat:'noche', name:'Casa Cruxada', nit:'', barrio:'Centro Histórico', tags:['Electrónica','Regenerativo','Plaza'], rating:4.4, horario:'Vie–Sáb · 9pm–3am', precio:'$$$ Exclusivo', desc:'Iniciativa gastronómica y de ocio nocturno en Plaza Santo Domingo. Música electrónica, decoración vanguardista y un ambiente que atrae a los amantes de la fiesta alternativa. Entrada con lista.', img:'https://images.pexels.com/photos/9005515/pexels-photo-9005515.jpeg?w=1920', telefono:'+57 300 901 2345', instagram:'casacruxada', menu:['Coctel de autor','Cerveza artesanal','Vino','Comida fusión'], coords:[10.4258,-75.5492] },
-  { id:45, orden:999, bg:'pt5', cat:'noche', name:'1811 Rooftop & Cocktail Bar', nit:'', barrio:'Centro Histórico', tags:['Rooftop','Cócteles','Elegante'], rating:4.6, horario:'Mar–Dom · 5pm–2am', precio:'$$$ Exclusivo', desc:'Rooftop con la mejor vista de la ciudad amurallada. Cócteles creativos, comida deliciosa y un atardecer que paraliza. La atención de José Darío y Elvis es insuperable. Un imperdible de la vida nocturna.', img:'https://images.pexels.com/photos/31019869/pexels-photo-31019869.jpeg?w=1920', telefono:'+57 301 012 3456', instagram:'1811rooftop', menu:['Mojito de coco','Margarita de sandía','Ceviche','Lomo al trapo'], coords:[10.4259,-75.5497] },
-  { id:46, orden:999, bg:'pt6', cat:'noche', name:'Barra 7 — Cocktail Bar', nit:'', barrio:'Centro Histórico', tags:['Coctelería','Música','Cool'], rating:4.5, horario:'Mar–Dom · 6pm–1am', precio:'$$$ Exclusivo', desc:'Barra de cócteles escondida en el Centro. Te reciben con palomitas y agua, la música es impecable y la watermelon margarita es la estrella. Ambiente cool y relajado para empezar o terminar la noche.', img:'https://images.pexels.com/photos/8551429/pexels-photo-8551429.jpeg?w=1920', telefono:'+57 301 123 4567', instagram:'barra7cartagena', menu:['Watermelon Margarita','Gin Tonic de maracuyá','Moscow Mule','Ceviche'], coords:[10.4236,-75.5499] },
-  { id:47, orden:999, bg:'pt7', cat:'noche', name:'Xo Rooftop', nit:'', barrio:'Centro Histórico', tags:['Rooftop','Vistas','Sunset'], rating:4.5, horario:'Lun–Dom · 4pm–12am', precio:'$$$ Exclusivo', desc:'Terraza minimalista con las mejores vistas de la ciudad amurallada. Carta de cócteles con influencia asiática y caribeña. DJ residente con música electrónica suave. Perfecto para un atardecer con estilo.', img:'https://images.pexels.com/photos/32089215/pexels-photo-32089215.jpeg?w=1920', telefono:'+57 301 234 5678', instagram:'xorooftop', menu:['Coctel de lychee','Mango sticky rice','Ceviche nikkei','Vino espumoso'], coords:[10.4248,-75.5515] },
-  { id:48, orden:999, bg:'pt8', cat:'noche', name:'Club Prestige', nit:'', barrio:'Bocagrande', tags:['Discoteca','VIP','Bocagrande'], rating:4.3, horario:'Vie–Sáb · 10pm–3am', precio:'$$$ Exclusivo', desc:'Discoteca en Bocagrande con ambiente VIP. Música variada, luces espectaculares y un público que viene a vestirse bien. Mesas con botella y servicio personalizado. La noche más exclusiva de Bocagrande.', img:'https://images.pexels.com/photos/7269731/pexels-photo-7269731.jpeg?w=1920', telefono:'+57 301 345 6789', instagram:'clubprestigectg', menu:['Botella de vodka','Whisky premium','Champán','Cerveza importada'], coords:[10.4003,-75.5560] },
-  { id:49, orden:999, bg:'pt1', cat:'noche', name:'Pikete', nit:'', barrio:'Centro Histórico', tags:['Reggaetón','Urbano','Fiesta'], rating:4.3, horario:'Vie–Sáb · 9pm–3am', precio:'$$ Promedio', desc:'Discoteca urbana en el Centro. Reggaetón, hip hop y música latina a todo volumen. Pista de baile amplia, luces led y un ambiente joven y energético. Entrada a precio justo y licor accesible.', img:'https://images.pexels.com/photos/8928738/pexels-photo-8928738.jpeg?w=1920', telefono:'+57 301 456 7890', instagram:'piketectg', menu:['Cerveza','Ron con energia','Whisky nacional','Coctel'], coords:[10.4230,-75.5490] },
-  { id:50, orden:999, bg:'pt2', cat:'noche', name:'Boheme Lounge', nit:'', barrio:'Centro Histórico', tags:['Lounge','Música','Shows'], rating:4.6, horario:'Jue–Dom · 7pm–2am', precio:'$$$ Exclusivo', desc:'Bar lounge de autor con shows en vivo de artistas locales. Ambiente íntimo, decoración cuidada y una atmósfera que invita a quedarse más de la cuenta. Música en vivo que va del jazz a los ritmos caribeños.', img:'https://images.pexels.com/photos/8512201/pexels-photo-8512201.jpeg?w=1920', telefono:'+57 301 567 8901', instagram:'bohemecartagena', menu:['Coctel de la casa','Vino tinto','Ceviche','Tabla de quesos'], coords:[10.4241,-75.5504] },
+  // --- NOCHE ---
+  { id:41, orden:999, bg:'pt1', cat:'noche', name:'Bazurto Social Club', nit:'', barrio:'GetsemanÃƒÆ’Ã‚Â­', tags:['Champeta','Baile','EnergÃƒÆ’Ã‚Â­a'], rating:4.6, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 9pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$ Promedio', desc:'Epicentro de la champeta en GetsemanÃƒÆ’Ã‚Â­. Empieza como restaurante y se transforma en la discoteca mÃƒÆ’Ã‚Â¡s autÃƒÆ’Ã‚Â©ntica de la ciudad. La banda Bazurto All Star toca antes de la media noche. Baile asegurado.', img:'https://images.pexels.com/photos/30730352/pexels-photo-30730352.jpeg?w=1920', telefono:'+57 300 678 9012', instagram:'bazurtosocialclub', menu:['Cerveza','Ron','Champeta y salsa','Comida tradicional'], coords:[10.4220,-75.5458] },
+  { id:42, orden:999, bg:'pt2', cat:'noche', name:'La Jugada Club House', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Urbano','ReggaetÃƒÆ’Ã‚Â³n','Elegante'], rating:4.5, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 9pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$$ Exclusivo', desc:'Club house de los mismos creadores de La Movida. InspiraciÃƒÆ’Ã‚Â³n Gatsby, mÃƒÆ’Ã‚Âºsica urbana y un sistema de sonido de ÃƒÆ’Ã‚Âºltima generaciÃƒÆ’Ã‚Â³n. Ambiente premium cerca de la Torre del Reloj. Fotos obligatorias.', img:'https://images.pexels.com/photos/1605417/pexels-photo-1605417.jpeg?w=1920', telefono:'+57 300 789 0123', instagram:'lajugadaclubhouse', menu:['Botella de whisky','ChampÃƒÆ’Ã‚Â¡n','Cerveza','Coctel de la casa'], coords:[10.4237,-75.5497] },
+  { id:43, orden:999, bg:'pt3', cat:'noche', name:'Seven 7 Times', nit:'', barrio:'GetsemanÃƒÆ’Ã‚Â­', tags:['Discoteca','5 ambientes','Shows'], rating:4.5, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 9pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$$ Exclusivo', desc:'Cinco ambientes en un solo lugar: terraza, discoteca, sala de cÃƒÆ’Ã‚Â³cteles, karaoke y mÃƒÆ’Ã‚Â¡s. Shows en vivo de artistas locales. En GetsemanÃƒÆ’Ã‚Â­, Calle Media Luna. Una experiencia nocturna completa en un solo sitio.', img:'https://images.pexels.com/photos/1766568/pexels-photo-1766568.jpeg?w=1920', telefono:'+57 300 890 1234', instagram:'seven7timescartagena', menu:['CÃƒÆ’Ã‚Â³ctel de la casa','Cerveza','Whisky','ChampÃƒÆ’Ã‚Â¡n'], coords:[10.4214,-75.5448] },
+  { id:44, orden:999, bg:'pt4', cat:'noche', name:'Casa Cruxada', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['ElectrÃƒÆ’Ã‚Â³nica','Regenerativo','Plaza'], rating:4.4, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 9pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$$ Exclusivo', desc:'Iniciativa gastronÃƒÆ’Ã‚Â³mica y de ocio nocturno en Plaza Santo Domingo. MÃƒÆ’Ã‚Âºsica electrÃƒÆ’Ã‚Â³nica, decoraciÃƒÆ’Ã‚Â³n vanguardista y un ambiente que atrae a los amantes de la fiesta alternativa. Entrada con lista.', img:'https://images.pexels.com/photos/9005515/pexels-photo-9005515.jpeg?w=1920', telefono:'+57 300 901 2345', instagram:'casacruxada', menu:['Coctel de autor','Cerveza artesanal','Vino','Comida fusiÃƒÆ’Ã‚Â³n'], coords:[10.4258,-75.5492] },
+  { id:45, orden:999, bg:'pt5', cat:'noche', name:'1811 Rooftop & Cocktail Bar', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Rooftop','CÃƒÆ’Ã‚Â³cteles','Elegante'], rating:4.6, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 5pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2am', precio:'$$$ Exclusivo', desc:'Rooftop con la mejor vista de la ciudad amurallada. CÃƒÆ’Ã‚Â³cteles creativos, comida deliciosa y un atardecer que paraliza. La atenciÃƒÆ’Ã‚Â³n de JosÃƒÆ’Ã‚Â© DarÃƒÆ’Ã‚Â­o y Elvis es insuperable. Un imperdible de la vida nocturna.', img:'https://images.pexels.com/photos/31019869/pexels-photo-31019869.jpeg?w=1920', telefono:'+57 301 012 3456', instagram:'1811rooftop', menu:['Mojito de coco','Margarita de sandÃƒÆ’Ã‚Â­a','Ceviche','Lomo al trapo'], coords:[10.4259,-75.5497] },
+  { id:46, orden:999, bg:'pt6', cat:'noche', name:'Barra 7 ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â Cocktail Bar', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['CoctelerÃƒÆ’Ã‚Â­a','MÃƒÆ’Ã‚Âºsica','Cool'], rating:4.5, horario:'MarÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 6pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1am', precio:'$$$ Exclusivo', desc:'Barra de cÃƒÆ’Ã‚Â³cteles escondida en el Centro. Te reciben con palomitas y agua, la mÃƒÆ’Ã‚Âºsica es impecable y la watermelon margarita es la estrella. Ambiente cool y relajado para empezar o terminar la noche.', img:'https://images.pexels.com/photos/8551429/pexels-photo-8551429.jpeg?w=1920', telefono:'+57 301 123 4567', instagram:'barra7cartagena', menu:['Watermelon Margarita','Gin Tonic de maracuyÃƒÆ’Ã‚Â¡','Moscow Mule','Ceviche'], coords:[10.4236,-75.5499] },
+  { id:47, orden:999, bg:'pt7', cat:'noche', name:'Xo Rooftop', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Rooftop','Vistas','Sunset'], rating:4.5, horario:'LunÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 4pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12am', precio:'$$$ Exclusivo', desc:'Terraza minimalista con las mejores vistas de la ciudad amurallada. Carta de cÃƒÆ’Ã‚Â³cteles con influencia asiÃƒÆ’Ã‚Â¡tica y caribeÃƒÆ’Ã‚Â±a. DJ residente con mÃƒÆ’Ã‚Âºsica electrÃƒÆ’Ã‚Â³nica suave. Perfecto para un atardecer con estilo.', img:'https://images.pexels.com/photos/32089215/pexels-photo-32089215.jpeg?w=1920', telefono:'+57 301 234 5678', instagram:'xorooftop', menu:['Coctel de lychee','Mango sticky rice','Ceviche nikkei','Vino espumoso'], coords:[10.4248,-75.5515] },
+  { id:48, orden:999, bg:'pt8', cat:'noche', name:'Club Prestige', nit:'', barrio:'Bocagrande', tags:['Discoteca','VIP','Bocagrande'], rating:4.3, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 10pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$$ Exclusivo', desc:'Discoteca en Bocagrande con ambiente VIP. MÃƒÆ’Ã‚Âºsica variada, luces espectaculares y un pÃƒÆ’Ã‚Âºblico que viene a vestirse bien. Mesas con botella y servicio personalizado. La noche mÃƒÆ’Ã‚Â¡s exclusiva de Bocagrande.', img:'https://images.pexels.com/photos/7269731/pexels-photo-7269731.jpeg?w=1920', telefono:'+57 301 345 6789', instagram:'clubprestigectg', menu:['Botella de vodka','Whisky premium','ChampÃƒÆ’Ã‚Â¡n','Cerveza importada'], coords:[10.4003,-75.5560] },
+  { id:49, orden:999, bg:'pt1', cat:'noche', name:'Pikete', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['ReggaetÃƒÆ’Ã‚Â³n','Urbano','Fiesta'], rating:4.3, horario:'VieÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“SÃƒÆ’Ã‚Â¡b Ãƒâ€šÃ‚Â· 9pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“3am', precio:'$$ Promedio', desc:'Discoteca urbana en el Centro. ReggaetÃƒÆ’Ã‚Â³n, hip hop y mÃƒÆ’Ã‚Âºsica latina a todo volumen. Pista de baile amplia, luces led y un ambiente joven y energÃƒÆ’Ã‚Â©tico. Entrada a precio justo y licor accesible.', img:'https://images.pexels.com/photos/8928738/pexels-photo-8928738.jpeg?w=1920', telefono:'+57 301 456 7890', instagram:'piketectg', menu:['Cerveza','Ron con energia','Whisky nacional','Coctel'], coords:[10.4230,-75.5490] },
+  { id:50, orden:999, bg:'pt2', cat:'noche', name:'Boheme Lounge', nit:'', barrio:'Centro HistÃƒÆ’Ã‚Â³rico', tags:['Lounge','MÃƒÆ’Ã‚Âºsica','Shows'], rating:4.6, horario:'JueÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“Dom Ãƒâ€šÃ‚Â· 7pmÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“2am', precio:'$$$ Exclusivo', desc:'Bar lounge de autor con shows en vivo de artistas locales. Ambiente ÃƒÆ’Ã‚Â­ntimo, decoraciÃƒÆ’Ã‚Â³n cuidada y una atmÃƒÆ’Ã‚Â³sfera que invita a quedarse mÃƒÆ’Ã‚Â¡s de la cuenta. MÃƒÆ’Ã‚Âºsica en vivo que va del jazz a los ritmos caribeÃƒÆ’Ã‚Â±os.', img:'https://images.pexels.com/photos/8512201/pexels-photo-8512201.jpeg?w=1920', telefono:'+57 301 567 8901', instagram:'bohemecartagena', menu:['Coctel de la casa','Vino tinto','Ceviche','Tabla de quesos'], coords:[10.4241,-75.5504] },
 ];
 
-// ══════════════════════════════════════
+// --------------------------------------
 // EVENTOS
-// ══════════════════════════════════════
+// --------------------------------------
 const eventList = [
-  { date:'2026-06-08', endDate:'2026-06-08', cat:'comida', icon:'🍳', name:'Asamblea de Cocina Tradicional', nit:'', place:'Centro Histórico', price:'Entrada libre', short:'8 de junio' },
-  { date:'2026-06-24', endDate:'2026-06-24', cat:'cultural', icon:'🎉', name:'Noche de San Juan', nit:'', place:'Playas y espacios públicos', price:'Entrada libre', short:'24 de junio' },
-  { date:'2026-07-03', endDate:'2026-07-05', cat:'cultural', icon:'🎸', name:'Rock Imperium Festival', nit:'', place:'Parque El Batel', price:'Desde 195€', short:'3–5 de julio' },
-  { date:'2026-07-09', endDate:'2026-11-05', cat:'arte', icon:'📖', name:'Festival Internacional de Poesía IPCC', nit:'', place:'Bibliotecas y centros culturales', price:'Entrada libre', short:'9 jul – 5 nov' },
-  { date:'2026-07-14', endDate:'2026-07-14', cat:'arte', icon:'🎭', name:'Agenda Cultural Alianza Francesa', nit:'', place:'Alianza Francesa, Centro', price:'Variable', short:'14 de julio' },
-  { date:'2026-07-17', endDate:'2026-07-25', cat:'cultural', icon:'🎶', name:'La Mar de Músicas', nit:'', place:'Varios enclaves históricos', price:'Variable', short:'17–25 de julio' },
-  { date:'2026-07-18', endDate:'2026-07-19', cat:'cultural', icon:'🥁', name:'Festival de Tambores', nit:'', place:'Palenque y plazas del Centro', price:'Entrada libre', short:'18–19 de julio' },
-  { date:'2026-08-13', endDate:'2026-08-13', cat:'noche', icon:'💃', name:'Día de la Champeta', nit:'', place:'Barrios de Cartagena', price:'Entrada libre', short:'13 de agosto' },
-  { date:'2026-08-15', endDate:'2026-08-15', cat:'comida', icon:'🫓', name:'Festival de la Arepa de Huevo', nit:'', place:'Getsemaní', price:'Desde $5.000 COP', short:'15 de agosto' },
-  { date:'2026-08-20', endDate:'2026-08-22', cat:'arte', icon:'🩰', name:'Festival Música y Danza del Mundo', nit:'', place:'Teatros y plazas del Centro', price:'Variable', short:'20–22 de agosto' },
-  { date:'2026-08-28', endDate:'2026-08-31', cat:'arte', icon:'✍️', name:'Parlamento Internacional de Escritores', nit:'', place:'Centro Histórico', price:'Entrada libre', short:'28–31 de agosto' },
-  { date:'2026-09-10', endDate:'2026-09-12', cat:'arte', icon:'🎷', name:'Festival Voces del Jazz', nit:'', place:'Plazas y teatros del Centro', price:'Variable', short:'10–12 de septiembre' },
-  { date:'2026-09-18', endDate:'2026-09-20', cat:'arte', icon:'🎸', name:'Festival de Guitarras', nit:'', place:'Auditorios del Centro', price:'Variable', short:'18–20 de septiembre' },
-  { date:'2026-09-21', endDate:'2026-09-21', cat:'arte', icon:'🎨', name:'Día del Artista Plástico', nit:'', place:'Galerías y espacios culturales', price:'Entrada libre', short:'21 de septiembre' },
-  { date:'2026-10-10', endDate:'2026-10-12', cat:'noche', icon:'💃', name:'Festival de Salsa de Cartagena', nit:'', place:'Clubes del Centro Histórico', price:'Desde $40.000 COP', short:'10–12 de octubre' },
-  { date:'2026-10-29', endDate:'2026-11-16', cat:'arte', icon:'🎷', name:'Cartagena Jazz Festival', nit:'', place:'Auditorio El Batel', price:'Por confirmar', short:'29 oct – 16 nov' },
-  { date:'2026-10-30', endDate:'2026-10-30', cat:'noche', icon:'🔥', name:'Noche de Candela y Jolgorio', nit:'', place:'Plazas del Centro Histórico', price:'Entrada libre', short:'30 de octubre' },
-  { date:'2026-11-01', endDate:'2026-11-04', cat:'arte', icon:'🪇', name:'Festival Regional de Gaitas', nit:'', place:'Barrio El Socorro', price:'Entrada libre', short:'1–4 de noviembre' },
-  { date:'2026-11-07', endDate:'2026-11-09', cat:'arte', icon:'📖', name:'Festival de Poesía de Cartagena', nit:'', place:'Bibliotecas y cafés del Centro', price:'Entrada libre', short:'7–9 de noviembre' },
-  { date:'2026-11-11', endDate:'2026-11-16', cat:'cultural', icon:'🎉', name:'Fiestas de Independencia', nit:'', place:'Calles del Centro Histórico', price:'Entrada libre', short:'11–16 de noviembre' },
-  { date:'2026-11-13', endDate:'2026-11-14', cat:'plan', icon:'⛵', name:'Festival Náutico', nit:'', place:'Bahía de Cartagena', price:'Entrada libre', short:'13–14 de noviembre' },
-  { date:'2026-11-29', endDate:'2026-11-29', cat:'cultural', icon:'🏊', name:'IRONMAN 70.3 Cartagena', nit:'', place:'Playas de Cartagena', price:'Inscripción ~$700 USD', short:'29 de noviembre' },
-  { date:'2026-12-15', endDate:'2026-12-22', cat:'arte', icon:'🎨', name:'Feria de Artesanías de Cartagena', nit:'', place:'Plaza de San Diego', price:'Entrada libre', short:'15–22 de diciembre' },
-  { date:'2026-12-16', endDate:'2026-12-24', cat:'cultural', icon:'⭐', name:'Novenas de Aguinaldos', nit:'', place:'Calles e iglesias del Centro', price:'Entrada libre', short:'16–24 de diciembre' },
-  { date:'2026-12-17', endDate:'2026-12-26', cat:'comida', icon:'🥟', name:'Festival del Pastel Cartagenero', nit:'', place:'Plaza de los Coches', price:'Desde $5.000 COP', short:'17–26 de diciembre' },
+  { date:'2026-06-08', endDate:'2026-06-08', cat:'comida', icon:'', name:'Asamblea de Cocina Tradicional', nit:'', place:'Centro HistÃƒÆ’Ã‚Â³rico', price:'Entrada libre', short:'8 de junio' },
+  { date:'2026-06-24', endDate:'2026-06-24', cat:'cultural', icon:'', name:'Noche de San Juan', nit:'', place:'Playas y espacios pÃƒÆ’Ã‚Âºblicos', price:'Entrada libre', short:'24 de junio' },
+  { date:'2026-07-03', endDate:'2026-07-05', cat:'cultural', icon:'', name:'Rock Imperium Festival', nit:'', place:'Parque El Batel', price:'Desde 195ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬', short:'3ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“5 de julio' },
+  { date:'2026-07-09', endDate:'2026-11-05', cat:'arte', icon:'', name:'Festival Internacional de PoesÃƒÆ’Ã‚Â­a IPCC', nit:'', place:'Bibliotecas y centros culturales', price:'Entrada libre', short:'9 jul ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 5 nov' },
+  { date:'2026-07-14', endDate:'2026-07-14', cat:'arte', icon:'', name:'Agenda Cultural Alianza Francesa', nit:'', place:'Alianza Francesa, Centro', price:'Variable', short:'14 de julio' },
+  { date:'2026-07-17', endDate:'2026-07-25', cat:'cultural', icon:'', name:'La Mar de MÃƒÆ’Ã‚Âºsicas', nit:'', place:'Varios enclaves histÃƒÆ’Ã‚Â³ricos', price:'Variable', short:'17ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“25 de julio' },
+  { date:'2026-07-18', endDate:'2026-07-19', cat:'cultural', icon:'', name:'Festival de Tambores', nit:'', place:'Palenque y plazas del Centro', price:'Entrada libre', short:'18ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“19 de julio' },
+  { date:'2026-08-13', endDate:'2026-08-13', cat:'noche', icon:'', name:'DÃƒÆ’Ã‚Â­a de la Champeta', nit:'', place:'Barrios de Cartagena', price:'Entrada libre', short:'13 de agosto' },
+  { date:'2026-08-15', endDate:'2026-08-15', cat:'comida', icon:'', name:'Festival de la Arepa de Huevo', nit:'', place:'GetsemanÃƒÆ’Ã‚Â­', price:'Desde $5.000 COP', short:'15 de agosto' },
+  { date:'2026-08-20', endDate:'2026-08-22', cat:'arte', icon:'', name:'Festival MÃƒÆ’Ã‚Âºsica y Danza del Mundo', nit:'', place:'Teatros y plazas del Centro', price:'Variable', short:'20ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“22 de agosto' },
+  { date:'2026-08-28', endDate:'2026-08-31', cat:'arte', icon:'', name:'Parlamento Internacional de Escritores', nit:'', place:'Centro HistÃƒÆ’Ã‚Â³rico', price:'Entrada libre', short:'28ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“31 de agosto' },
+  { date:'2026-09-10', endDate:'2026-09-12', cat:'arte', icon:'', name:'Festival Voces del Jazz', nit:'', place:'Plazas y teatros del Centro', price:'Variable', short:'10ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12 de septiembre' },
+  { date:'2026-09-18', endDate:'2026-09-20', cat:'arte', icon:'', name:'Festival de Guitarras', nit:'', place:'Auditorios del Centro', price:'Variable', short:'18ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“20 de septiembre' },
+  { date:'2026-09-21', endDate:'2026-09-21', cat:'arte', icon:'', name:'DÃƒÆ’Ã‚Â­a del Artista PlÃƒÆ’Ã‚Â¡stico', nit:'', place:'GalerÃƒÆ’Ã‚Â­as y espacios culturales', price:'Entrada libre', short:'21 de septiembre' },
+  { date:'2026-10-10', endDate:'2026-10-12', cat:'noche', icon:'', name:'Festival de Salsa de Cartagena', nit:'', place:'Clubes del Centro HistÃƒÆ’Ã‚Â³rico', price:'Desde $40.000 COP', short:'10ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12 de octubre' },
+  { date:'2026-10-29', endDate:'2026-11-16', cat:'arte', icon:'', name:'Cartagena Jazz Festival', nit:'', place:'Auditorio El Batel', price:'Por confirmar', short:'29 oct ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ 16 nov' },
+  { date:'2026-10-30', endDate:'2026-10-30', cat:'noche', icon:'', name:'Noche de Candela y Jolgorio', nit:'', place:'Plazas del Centro HistÃƒÆ’Ã‚Â³rico', price:'Entrada libre', short:'30 de octubre' },
+  { date:'2026-11-01', endDate:'2026-11-04', cat:'arte', icon:'', name:'Festival Regional de Gaitas', nit:'', place:'Barrio El Socorro', price:'Entrada libre', short:'1ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“4 de noviembre' },
+  { date:'2026-11-07', endDate:'2026-11-09', cat:'arte', icon:'', name:'Festival de PoesÃƒÆ’Ã‚Â­a de Cartagena', nit:'', place:'Bibliotecas y cafÃƒÆ’Ã‚Â©s del Centro', price:'Entrada libre', short:'7ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“9 de noviembre' },
+  { date:'2026-11-11', endDate:'2026-11-16', cat:'cultural', icon:'', name:'Fiestas de Independencia', nit:'', place:'Calles del Centro HistÃƒÆ’Ã‚Â³rico', price:'Entrada libre', short:'11ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“16 de noviembre' },
+  { date:'2026-11-13', endDate:'2026-11-14', cat:'plan', icon:'?', name:'Festival NÃƒÆ’Ã‚Â¡utico', nit:'', place:'BahÃƒÆ’Ã‚Â­a de Cartagena', price:'Entrada libre', short:'13ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“14 de noviembre' },
+  { date:'2026-11-29', endDate:'2026-11-29', cat:'cultural', icon:'', name:'IRONMAN 70.3 Cartagena', nit:'', place:'Playas de Cartagena', price:'InscripciÃƒÆ’Ã‚Â³n ~$700 USD', short:'29 de noviembre' },
+  { date:'2026-12-15', endDate:'2026-12-22', cat:'arte', icon:'', name:'Feria de ArtesanÃƒÆ’Ã‚Â­as de Cartagena', nit:'', place:'Plaza de San Diego', price:'Entrada libre', short:'15ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“22 de diciembre' },
+  { date:'2026-12-16', endDate:'2026-12-24', cat:'cultural', icon:'?', name:'Novenas de Aguinaldos', nit:'', place:'Calles e iglesias del Centro', price:'Entrada libre', short:'16ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“24 de diciembre' },
+  { date:'2026-12-17', endDate:'2026-12-26', cat:'comida', icon:'', name:'Festival del Pastel Cartagenero', nit:'', place:'Plaza de los Coches', price:'Desde $5.000 COP', short:'17ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“26 de diciembre' },
 ];
 
 function getUpcomingEvents() {
@@ -745,6 +745,12 @@ function getUpcomingEvents() {
 const etClasses = ['et1','et2','et3','et4','et5'];
 const meses = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
 
+
+
+function getEventIcon(cat) {
+  const map = { bares:'<i class="fa-solid fa-martini-glass-citrus"></i>', cafe:'<i class="fa-solid fa-mug-saucer"></i>', comida:'<i class="fa-solid fa-utensils"></i>', arte:'<i class="fa-solid fa-palette"></i>', plan:'<i class="fa-solid fa-calendar-check"></i>', noche:'<i class="fa-solid fa-moon"></i>', cultural:'<i class="fa-solid fa-masks-theater"></i>' };
+  return map[cat] || '<i class="fa-regular fa-star"></i>';
+}
 function renderEventsList(list) {
   const feed = document.getElementById('events-feed');
   feed.innerHTML = '';
@@ -757,14 +763,14 @@ function renderEventsList(list) {
       <div class="ev-thumb-full ${etClasses[i % 5]}">${e.icon}<div class="ev-badge-full dia">${meses[m]}</div></div>
       <div class="ev-info-full">
         <h3>${e.name}</h3>
-        <div class="ev-detail-row"><span>🕐</span> ${e.short}</div>
-        <div class="ev-detail-row"><span>📍</span> ${e.place}</div>
-        <div class="ev-detail-row"><span>🎟</span> ${e.price}</div>
+        <div class="ev-detail-row"><span><i class="fa-regular fa-calendar"></i></span> ${e.short}</div>
+        <div class="ev-detail-row"><span><i class="fa-solid fa-location-dot"></i></span> ${e.place}</div>
+        <div class="ev-detail-row"><span><i class="fa-solid fa-tag"></i></span> ${e.price}</div>
       </div>`;
     feed.appendChild(card);
   });
   if (list.length === 0) {
-    feed.innerHTML = '<div style="text-align:center;padding:40px;color:var(--muted);font-size:14px;">No hay eventos próximos.</div>';
+    feed.innerHTML = '<div style="text-align:center;padding:40px;color:var(--muted);font-size:14px;">No hay eventos prÃƒÆ’Ã‚Â³ximos.</div>';
   }
 }
 
@@ -777,14 +783,14 @@ function renderBannerEvents() {
     const item = document.createElement('div');
     item.className = 'banner-event-item';
     item.dataset.cat = e.cat;
-    item.innerHTML = `<div class="bev-icon">${e.icon}</div><div class="bev-info"><h5>${e.name}</h5><p>${e.short} · ${e.price}</p></div>`;
+    item.innerHTML = `<div class="bev-icon">${e.icon}</div><div class="bev-info"><h5>${e.name}</h5><p>${e.short} Ãƒâ€šÃ‚Â· ${e.price}</p></div>`;
     container.appendChild(item);
   });
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // ESTADO
-// ══════════════════════════════════════
+// --------------------------------------
 let saved = JSON.parse(localStorage.getItem('ctg_saved') || '[]');
 let currentFilter = 'todos';
 let currentSearch = '';
@@ -794,9 +800,9 @@ let mapMarkers = [];
 let mapInitialized = false;
 let mapFocusPlace = null;
 
-// ══════════════════════════════════════
-// NAVEGACIÓN
-// ══════════════════════════════════════
+// --------------------------------------
+// NAVEGACIÃƒÆ’Ã¢â‚¬Å“N
+// --------------------------------------
 function goScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById(id).classList.add('active');
@@ -810,9 +816,9 @@ function goScreen(id) {
   window.scrollTo(0,0);
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // FILTROS
-// ══════════════════════════════════════
+// --------------------------------------
 function setFilter(cat, el) {
   currentFilter = cat;
   document.querySelectorAll('.cat-pill').forEach(p => p.classList.remove('active'));
@@ -835,9 +841,9 @@ function matchesFilter(p) {
   return catMatch && searchMatch;
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // RENDER LUGARES
-// ══════════════════════════════════════
+// --------------------------------------
 function renderPlaces() {
   const feed = document.getElementById('places-feed');
   feed.innerHTML = '';
@@ -866,15 +872,15 @@ function makePlaceCard(p, i) {
     <div class="place-info">
       <h3>${p.name}</h3>
       <div class="place-tags">${p.tags.map(t=>`<span class="p-tag">${t}</span>`).join('')}</div>
-      <div class="place-barrio">📍 ${p.barrio}</div>
+      <div class="place-barrio"><i class="fa-solid fa-location-dot"></i> ${p.barrio}</div>
     </div>`;
   d.addEventListener('click', e => { if(!e.target.closest('.heart-btn')) openModal(p); });
   return d;
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // FILTER EVENTOS
-// ══════════════════════════════════════
+// --------------------------------------
 function filterEvents() {
   const upcoming = getUpcomingEvents();
   const filtered = upcoming.filter(e => {
@@ -887,9 +893,9 @@ function filterEvents() {
   renderBannerEvents();
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // MAPA
-// ══════════════════════════════════════
+// --------------------------------------
 function initMap() {
   if(mapInitialized) { leafMap.invalidateSize(); updateMapPins(); return; }
   mapInitialized = true;
@@ -908,7 +914,7 @@ function updateMapPins() {
       html:`<div style="background:#1C1508;border:2px solid #C9983A;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 10px rgba(0,0,0,0.5);"><svg viewBox="0 0 80 80" width="20" height="20" fill="none" xmlns="http://www.w3.org/2000/svg">${getSVG(p.cat)}</svg></div>`,
       className:'', nit:'', iconSize:[36,36], iconAnchor:[18,18]
     });
-    const marker = L.marker(p.coords,{icon}).addTo(leafMap).bindPopup(`<div class="popup-name">${p.name}</div><div class="popup-barrio">📍 ${p.barrio}</div>`);
+    const marker = L.marker(p.coords,{icon}).addTo(leafMap).bindPopup(`<div class="popup-name">${p.name}</div><div class="popup-barrio"><i class="fa-solid fa-location-dot"></i> ${p.barrio}</div>`);
     mapMarkers.push(marker);
   });
 }
@@ -928,9 +934,9 @@ function goToMap(place) {
   }, 380);
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // MODAL
-// ══════════════════════════════════════
+// --------------------------------------
 function openModal(p) {
   currentModal = p;
   const isSaved = saved.includes(p.id);
@@ -950,7 +956,7 @@ function openModal(p) {
   document.getElementById('modal-title').textContent = p.name;
   document.getElementById('modal-tags').innerHTML = p.tags.map(t=>`<span class="m-tag">${t}</span>`).join('');
   document.getElementById('modal-desc').textContent = p.desc;
-  document.getElementById('modal-barrio').innerHTML = `📍 ${p.barrio}`;
+  document.getElementById('modal-barrio').innerHTML = `<i class="fas fa-location-dot"></i> ${p.barrio}`;
 
   const full = Math.floor(p.rating);
   const starsHtml = Array.from({length:5},(_,i)=>`<i class="star fa${i<full?'s':'r'} fa-star ${i<full?'on':'off'}"></i>`).join('');
@@ -961,14 +967,14 @@ function openModal(p) {
     <div class="detail-box"><div class="d-label">Precio</div><div class="d-val">${p.precio}</div></div>`;
 
   let infoHtml = '';
-  if (p.telefono) infoHtml += `<div class="info-line"><span>📞</span> <span style="cursor:pointer;color:var(--gold);" onclick="navigator.clipboard.writeText('${p.telefono}');this.innerText='¡Copiado!';">${p.telefono}</span></div>`;
-  if (p.instagram) infoHtml += `<div class="info-line"><span>📷</span> <a href="https://instagram.com/${p.instagram}" target="_blank" style="color:var(--gold);text-decoration:none;">@${p.instagram}</a></div>`;
+  if (p.telefono) infoHtml += `<div class="info-line"><span><i class="fa-solid fa-phone"></i></span> <span style="cursor:pointer;color:var(--gold);" onclick="navigator.clipboard.writeText('${p.telefono}');this.innerText='Ãƒâ€šÃ‚Â¡Copiado!';">${p.telefono}</span></div>`;
+  if (p.instagram) infoHtml += `<div class="info-line"><span><i class="fa-brands fa-instagram"></i></span> <a href="https://instagram.com/${p.instagram}" target="_blank" style="color:var(--gold);text-decoration:none;">@${p.instagram}</a></div>`;
   document.getElementById('modal-info').innerHTML = infoHtml;
 
   if (p.menu && p.menu.some(it => it)) {
     document.getElementById('modal-menu').innerHTML = `
       <div class="menu-box">
-        <div class="mb-title">Menú destacado</div>
+        <div class="mb-title">MenÃƒÆ’Ã‚Âº destacado</div>
         <ul>${p.menu.filter(it=>it).map(it=>`<li><i class="fa-regular fa-circle" style="font-size:6px;color:var(--gold);vertical-align:middle;margin-right:6px"></i>${it}</li>`).join('')}</ul>
       </div>`;
   } else {
@@ -992,9 +998,9 @@ function handleOverlayClick(e) {
   if(e.target === document.getElementById('overlay')) closeModal();
 }
 
-// ══════════════════════════════════════
+// --------------------------------------
 // GUARDAR
-// ══════════════════════════════════════
+// --------------------------------------
 function toggleSave(e, id) {
   e.stopPropagation();
   const btn = e.currentTarget;
@@ -1026,7 +1032,7 @@ function renderSaved() {
   const c = document.getElementById('saved-container');
   const sp = places.filter(p => saved.includes(p.id)).sort((a,b)=>(a.orden||999)-(b.orden||999));
   if(sp.length === 0) {
-    c.innerHTML = `<div class="saved-empty"><div class="saved-empty-icon"><i class="fa-regular fa-heart"></i></div><h3>Aún no tienes guardados</h3><p>Toca el corazón en cualquier lugar para guardarlo aquí.</p></div>`;
+    c.innerHTML = `<div class="saved-empty"><div class="saved-empty-icon"><i class="fa-regular fa-heart"></i></div><h3>AÃƒÆ’Ã‚Âºn no tienes guardados</h3><p>Toca el corazÃƒÆ’Ã‚Â³n en cualquier lugar para guardarlo aquÃƒÆ’Ã‚Â­.</p></div>`;
     return;
   }
   c.innerHTML = '';
@@ -1040,9 +1046,9 @@ function sharePlace() {
   if(!currentModal) return;
   const p = currentModal;
   if(navigator.share) {
-    navigator.share({title:p.name, text:`Mira este parche en Cartagena Local: ${p.name} — ${p.barrio}`, url:window.location.href});
+    navigator.share({title:p.name, text:`Mira este parche en Cartagena Local: ${p.name} ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â ${p.barrio}`, url:window.location.href});
   } else {
-    navigator.clipboard.writeText(window.location.href).then(()=>alert('¡Enlace copiado!'));
+    navigator.clipboard.writeText(window.location.href).then(()=>alert('Ãƒâ€šÃ‚Â¡Enlace copiado!'));
   }
 }
 
@@ -1056,6 +1062,5 @@ renderBannerEvents();
 </script>
 </body>
 </html>
-
 
 
